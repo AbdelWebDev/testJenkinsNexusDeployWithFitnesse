@@ -1,0 +1,8 @@
+---
+Test
+---
+| Import |
+| smartrics.rest.fitnesse.fixture |
+
+| Table: Rest Fixture |http://127.0.0.1:8040/services |
+|GET | /services/employees/1 |200||/employee[@id=1]|

@@ -1,0 +1,477 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20161106</FitNesseVersion>
+  <rootPath>MyTestSamples.MySimple3</rootPath>
+    <result>
+    <counts>
+      <right>3</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>2</exceptions>
+    </counts>
+    <date>2017-03-15T10:16:10+01:00</date>
+    <runTimeInMillis>2592</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;Import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;smartrics.rest.fitnesse.fixture&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;Table: Rest Fixture&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="4"&gt;&lt;a href="http://jsonplaceholder.typicode.com/"&gt;http://jsonplaceholder.typicode.com/&lt;/a&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;GET&lt;/td&gt;
+		&lt;td&gt;&lt;div&gt;&lt;a href='http://jsonplaceholder.typicode.com/users/1'&gt;/users/1&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;&lt;div&gt;200&lt;/div&gt;&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;&lt;div&gt;Content-Type:&amp;nbsp;application/json&lt;br/&gt;&lt;i&gt;&lt;span class='fit_label'&gt;expected&lt;/span&gt;&lt;/i&gt;&lt;hr/&gt;&lt;br/&gt;Date&amp;nbsp;:&amp;nbsp;Wed,&amp;nbsp;15&amp;nbsp;Mar&amp;nbsp;2017&amp;nbsp;09:16:12&amp;nbsp;GMT&lt;br/&gt;Content-Type&amp;nbsp;:&amp;nbsp;application/json;&amp;nbsp;charset=utf-8&lt;br/&gt;Content-Length&amp;nbsp;:&amp;nbsp;509&lt;br/&gt;Connection&amp;nbsp;:&amp;nbsp;keep-alive&lt;br/&gt;Set-Cookie&amp;nbsp;:&amp;nbsp;__cfduid=d3964061218123733ca51fdb238b8fd291489569372;&amp;nbsp;expires=Thu,&amp;nbsp;15-Mar-18&amp;nbsp;09:16:12&amp;nbsp;GMT;&amp;nbsp;path=/;&amp;nbsp;domain=.typicode.com;&amp;nbsp;HttpOnly&lt;br/&gt;X-Powered-By&amp;nbsp;:&amp;nbsp;Express&lt;br/&gt;Vary&amp;nbsp;:&amp;nbsp;Origin,&amp;nbsp;Accept-Encoding&lt;br/&gt;Access-Control-Allow-Credentials&amp;nbsp;:&amp;nbsp;true&lt;br/&gt;Cache-Control&amp;nbsp;:&amp;nbsp;public,&amp;nbsp;max-age=14400&lt;br/&gt;Pragma&amp;nbsp;:&amp;nbsp;no-cache&lt;br/&gt;Expires&amp;nbsp;:&amp;nbsp;Wed,&amp;nbsp;15&amp;nbsp;Mar&amp;nbsp;2017&amp;nbsp;13:16:12&amp;nbsp;GMT&lt;br/&gt;X-Content-Type-Options&amp;nbsp;:&amp;nbsp;nosniff&lt;br/&gt;Etag&amp;nbsp;:&amp;nbsp;W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"&lt;br/&gt;Via&amp;nbsp;:&amp;nbsp;1.1&amp;nbsp;vegur&lt;br/&gt;CF-Cache-Status&amp;nbsp;:&amp;nbsp;HIT&lt;br/&gt;Server&amp;nbsp;:&amp;nbsp;cloudflare-nginx&lt;br/&gt;CF-RAY&amp;nbsp;:&amp;nbsp;33fe5f6113001509-CDG&lt;br/&gt;&lt;i&gt;&lt;span class='fit_label'&gt;actual&lt;/span&gt;&lt;/i&gt;&lt;/div&gt;&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;&lt;div&gt;jsonbody.username&amp;nbsp;===&amp;nbsp;'Bret'&lt;br/&gt;&lt;i&gt;&lt;span class='fit_label'&gt;expected&lt;/span&gt;&lt;/i&gt;&lt;hr/&gt;&lt;br/&gt;{&lt;br/&gt;&amp;nbsp;&amp;nbsp;"id":&amp;nbsp;1,&lt;br/&gt;&amp;nbsp;&amp;nbsp;"name":&amp;nbsp;"Leanne&amp;nbsp;Graham",&lt;br/&gt;&amp;nbsp;&amp;nbsp;"username":&amp;nbsp;"Bret",&lt;br/&gt;&amp;nbsp;&amp;nbsp;"email":&amp;nbsp;"Sincere@april.biz",&lt;br/&gt;&amp;nbsp;&amp;nbsp;"address":&amp;nbsp;{&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"street":&amp;nbsp;"Kulas&amp;nbsp;Light",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"suite":&amp;nbsp;"Apt.&amp;nbsp;556",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"city":&amp;nbsp;"Gwenborough",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"zipcode":&amp;nbsp;"92998-3874",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"geo":&amp;nbsp;{&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"lat":&amp;nbsp;"-37.3159",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"lng":&amp;nbsp;"81.1496"&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&lt;br/&gt;&amp;nbsp;&amp;nbsp;},&lt;br/&gt;&amp;nbsp;&amp;nbsp;"phone":&amp;nbsp;"1-770-736-8031&amp;nbsp;x56442",&lt;br/&gt;&amp;nbsp;&amp;nbsp;"website":&amp;nbsp;"hildegard.org",&lt;br/&gt;&amp;nbsp;&amp;nbsp;"company":&amp;nbsp;{&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"name":&amp;nbsp;"Romaguera-Crona",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"catchPhrase":&amp;nbsp;"Multi-layered&amp;nbsp;client-server&amp;nbsp;neural-net",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"bs":&amp;nbsp;"harness&amp;nbsp;real-time&amp;nbsp;e-markets"&lt;br/&gt;&amp;nbsp;&amp;nbsp;}&lt;br/&gt;}&lt;br/&gt;&lt;i&gt;&lt;span class='fit_label'&gt;actual&lt;/span&gt;&lt;/i&gt;&lt;/div&gt;&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;let&lt;/td&gt;
+		&lt;td&gt;name&lt;/td&gt;
+		&lt;td&gt;jss&lt;/td&gt;
+		&lt;td&gt;response.jsonbody.username &lt;span class="error"&gt;&lt;div&gt;I don't know how to process the expression for 'jss'&lt;/div&gt;&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>MySimple3</relativePageName>
+            <instructions>
+            <instructionResult>
+        <instruction>{id='import_0_0', instruction='import', path='smartrics.rest.fitnesse.fixture'}</instruction>
+        <slimResult>pass(smartrics.rest.fitnesse.fixture)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>import_0_0</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ImportExpectation</type>
+                                        <evaluationMessage>smartrics.rest.fitnesse.fixture</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='tableTable_1_0', instruction='make', instanceName='tableTable_1', className='RestFixture', args=[&lt;a href="http://jsonplaceholder.typicode.com/"&gt;http://jsonplaceholder.typicode.com/&lt;/a&gt;]}</instruction>
+        <slimResult>pass(Table: Rest Fixture)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>tableTable_1_0</instructionId>
+                    <col>0</col>
+                              <row>0</row>
+                    <type>ConstructionExpectation</type>
+                                        <evaluationMessage>Table: Rest Fixture</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='tableTable_1_1', instruction='call', instanceName='tableTable_1', methodName='doTable', args=[[[GET, /users/1, 200, Content-Type: application/json, jsonbody.username === 'Bret'], [let, name, jss, response.jsonbody.username, ]]]}</instruction>
+        <slimResult>error()</slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>tableTable_1_1</instructionId>
+                              <type>TableTableExpectation</type>
+                                      </expectation>
+              </instructionResult>
+          </instructions>
+      </result>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>"C:\Program Files\Java\jdk1.8.0_121\bin\java" -cp C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\fitnesse-20161106.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\ant-1.9.6.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\ant-launcher-1.9.6.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\commons-codec-1.2.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\commons-collections-3.2.2.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\commons-httpclient-3.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\commons-lang-2.6.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\commons-logging-1.0.4.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\diffutils-1.3.0.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\fitnesse-20161106.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\htmllexer-2.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\htmlparser-2.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\jettison-1.3.2.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\json-20151123.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\junit-4.8.2.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\log4j-1.2.17.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\rhino-1.7R3.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\slf4j-api-1.7.20.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\slf4j-log4j12-1.7.20.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\smartrics-RestClient-2.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\smartrics-RestFixture-4.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\stax-api-1.0.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\velocity-1.7.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\xmlpull-1.1.3.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\xpp3_min-1.1.4c.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\xstream-1.4.2.jar fitnesse.slim.SlimService 1</command>
+    <exitCode>0</exitCode>
+    <stdOut>10:16:11,590 DEBUG [DefaultHttpParams] - Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
+
+10:16:11,602 DEBUG [DefaultHttpParams] - Set parameter http.protocol.version = HTTP/1.1
+
+10:16:11,606 DEBUG [DefaultHttpParams] - Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+
+10:16:11,614 DEBUG [DefaultHttpParams] - Set parameter http.protocol.cookie-policy = default
+
+10:16:11,622 DEBUG [DefaultHttpParams] - Set parameter http.protocol.element-charset = US-ASCII
+
+10:16:11,622 DEBUG [DefaultHttpParams] - Set parameter http.protocol.content-charset = ISO-8859-1
+
+10:16:11,626 DEBUG [DefaultHttpParams] - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@6f79caec
+
+10:16:11,626 DEBUG [DefaultHttpParams] - Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+
+10:16:11,626 DEBUG [DefaultHttpParams] - Set parameter http.socket.timeout = 3000
+
+10:16:11,626 DEBUG [DefaultHttpParams] - Set parameter http.socket.timeout = 3000
+
+10:16:11,634 DEBUG [HttpClient] - Java version: 1.8.0_121
+
+10:16:11,638 DEBUG [HttpClient] - Java vendor: Oracle Corporation
+
+10:16:11,638 DEBUG [HttpClient] - Java class path: C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\fitnesse-20161106.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\ant-1.9.6.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\ant-launcher-1.9.6.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\commons-codec-1.2.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\commons-collections-3.2.2.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\commons-httpclient-3.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\commons-lang-2.6.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\commons-logging-1.0.4.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\diffutils-1.3.0.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\fitnesse-20161106.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\htmllexer-2.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\htmlparser-2.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\jettison-1.3.2.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\json-20151123.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\junit-4.8.2.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\log4j-1.2.17.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\rhino-1.7R3.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\slf4j-api-1.7.20.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\slf4j-log4j12-1.7.20.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\smartrics-RestClient-2.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\smartrics-RestFixture-4.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\stax-api-1.0.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\velocity-1.7.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\xmlpull-1.1.3.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\xpp3_min-1.1.4c.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\xstream-1.4.2.jar
+
+10:16:11,650 DEBUG [HttpClient] - Operating system name: Windows 10
+
+10:16:11,650 DEBUG [HttpClient] - Operating system architecture: amd64
+
+10:16:11,654 DEBUG [HttpClient] - Operating system version: 10.0
+
+10:16:12,070 DEBUG [HttpClient] - SUN 1.8: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS &amp; DKS keystores; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+
+10:16:12,070 DEBUG [HttpClient] - SunRsaSign 1.8: Sun RSA signature provider
+
+10:16:12,070 DEBUG [HttpClient] - SunEC 1.8: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
+
+10:16:12,070 DEBUG [HttpClient] - SunJSSE 1.8: Sun JSSE provider(PKCS12, SunX509/PKIX key/trust factories, SSLv3/TLSv1/TLSv1.1/TLSv1.2)
+
+10:16:12,070 DEBUG [HttpClient] - SunJCE 1.8: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
+
+10:16:12,074 DEBUG [HttpClient] - SunJGSS 1.8: Sun (Kerberos v5, SPNEGO)
+
+10:16:12,074 DEBUG [HttpClient] - SunSASL 1.8: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5, NTLM)
+
+10:16:12,074 DEBUG [HttpClient] - XMLDSig 1.8: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory; C14N 1.0, C14N 1.1, Exclusive C14N, Base64, Enveloped, XPath, XPath2, XSLT TransformServices)
+
+10:16:12,074 DEBUG [HttpClient] - SunPCSC 1.8: Sun PC/SC provider
+
+10:16:12,074 DEBUG [HttpClient] - SunMSCAPI 1.8: Sun's Microsoft Crypto API provider
+
+10:16:12,122 DEBUG [RestClientImpl] - request: Get /users/1
+[empty/null body]
+
+10:16:12,198 DEBUG [HttpClient] - enter HttpClient.executeMethod(HttpMethod)
+
+10:16:12,198 DEBUG [HttpClient] - enter HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
+
+10:16:12,242 DEBUG [HttpMethodDirector] - Attempt number 1 to process request
+
+10:16:12,242 DEBUG [HttpConnection] - enter HttpConnection.open()
+
+10:16:12,242 DEBUG [HttpConnection] - Open connection to jsonplaceholder.typicode.com:80
+
+10:16:12,322 DEBUG [HttpMethodBase] - enter HttpMethodBase.execute(HttpState, HttpConnection)
+
+10:16:12,322 DEBUG [HttpMethodBase] - enter HttpMethodBase.writeRequest(HttpState, HttpConnection)
+
+10:16:12,322 DEBUG [HttpMethodBase] - enter HttpMethodBase.writeRequestLine(HttpState, HttpConnection)
+
+10:16:12,326 DEBUG [HttpMethodBase] - enter HttpMethodBase.generateRequestLine(HttpConnection, String, String, String, String)
+
+10:16:12,326 DEBUG [header] - &gt;&gt; "GET /users/1 HTTP/1.1[\r][\n]"
+
+10:16:12,330 DEBUG [HttpConnection] - enter HttpConnection.print(String)
+
+10:16:12,330 DEBUG [HttpConnection] - enter HttpConnection.write(byte[])
+
+10:16:12,330 DEBUG [HttpConnection] - enter HttpConnection.write(byte[], int, int)
+
+10:16:12,330 DEBUG [HttpMethodBase] - enter HttpMethodBase.writeRequestHeaders(HttpState,HttpConnection)
+
+10:16:12,330 DEBUG [HttpMethodBase] - enter HttpMethodBase.addRequestHeaders(HttpState, HttpConnection)
+
+10:16:12,330 DEBUG [HttpMethodBase] - enter HttpMethodBase.addUserAgentRequestHeaders(HttpState, HttpConnection)
+
+10:16:12,330 DEBUG [HttpMethodBase] - enter HttpMethodBase.addHostRequestHeader(HttpState, HttpConnection)
+
+10:16:12,330 DEBUG [HttpMethodBase] - Adding Host request header
+
+10:16:12,330 DEBUG [HttpMethodBase] - enter HttpMethodBase.addCookieRequestHeader(HttpState, HttpConnection)
+
+10:16:12,366 DEBUG [HttpState] - enter HttpState.getCookies()
+
+10:16:12,366 DEBUG [CookieSpec] - enter CookieSpecBase.match(String, int, String, boolean, Cookie[])
+
+10:16:12,366 DEBUG [HttpMethodBase] - enter HttpMethodBase.addProxyConnectionHeader(HttpState, HttpConnection)
+
+10:16:12,366 DEBUG [header] - &gt;&gt; "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+
+10:16:12,366 DEBUG [HttpConnection] - enter HttpConnection.print(String)
+
+10:16:12,370 DEBUG [HttpConnection] - enter HttpConnection.write(byte[])
+
+10:16:12,370 DEBUG [HttpConnection] - enter HttpConnection.write(byte[], int, int)
+
+10:16:12,370 DEBUG [header] - &gt;&gt; "Host: jsonplaceholder.typicode.com[\r][\n]"
+
+10:16:12,370 DEBUG [HttpConnection] - enter HttpConnection.print(String)
+
+10:16:12,370 DEBUG [HttpConnection] - enter HttpConnection.write(byte[])
+
+10:16:12,370 DEBUG [HttpConnection] - enter HttpConnection.write(byte[], int, int)
+
+10:16:12,370 DEBUG [HttpConnection] - enter HttpConnection.writeLine()
+
+10:16:12,370 DEBUG [HttpConnection] - enter HttpConnection.write(byte[])
+
+10:16:12,370 DEBUG [HttpConnection] - enter HttpConnection.write(byte[], int, int)
+
+10:16:12,370 DEBUG [header] - &gt;&gt; "[\r][\n]"
+
+10:16:12,370 DEBUG [HttpConnection] - enter HttpConnection.flushRequestOutputStream()
+
+10:16:12,374 DEBUG [HttpMethodBase] - enter HttpMethodBase.readResponse(HttpState, HttpConnection)
+
+10:16:12,374 DEBUG [HttpMethodBase] - enter HttpMethodBase.readStatusLine(HttpState, HttpConnection)
+
+10:16:12,374 DEBUG [HttpConnection] - enter HttpConnection.readLine()
+
+10:16:12,378 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+10:16:12,378 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+10:16:12,442 DEBUG [header] - &lt;&lt; "HTTP/1.1 200 OK[\r][\n]"
+
+10:16:12,442 DEBUG [header] - &lt;&lt; "HTTP/1.1 200 OK[\r][\n]"
+
+10:16:12,446 DEBUG [HttpMethodBase] - enter HttpMethodBase.readResponseHeaders(HttpState,HttpConnection)
+
+10:16:12,446 DEBUG [HttpConnection] - enter HttpConnection.getResponseInputStream()
+
+10:16:12,446 DEBUG [HttpParser] - enter HeaderParser.parseHeaders(InputStream, String)
+
+10:16:12,446 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+10:16:12,446 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+10:16:12,446 DEBUG [header] - &lt;&lt; "Date: Wed, 15 Mar 2017 09:16:12 GMT[\r][\n]"
+
+10:16:12,450 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+10:16:12,450 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+10:16:12,450 DEBUG [header] - &lt;&lt; "Content-Type: application/json; charset=utf-8[\r][\n]"
+
+10:16:12,450 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+10:16:12,450 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+10:16:12,450 DEBUG [header] - &lt;&lt; "Content-Length: 509[\r][\n]"
+
+10:16:12,450 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+10:16:12,450 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+10:16:12,450 DEBUG [header] - &lt;&lt; "Connection: keep-alive[\r][\n]"
+
+10:16:12,450 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+10:16:12,454 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+10:16:12,454 DEBUG [header] - &lt;&lt; "Set-Cookie: __cfduid=d3964061218123733ca51fdb238b8fd291489569372; expires=Thu, 15-Mar-18 09:16:12 GMT; path=/; domain=.typicode.com; HttpOnly[\r][\n]"
+
+10:16:12,454 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+10:16:12,454 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+10:16:12,454 DEBUG [header] - &lt;&lt; "X-Powered-By: Express[\r][\n]"
+
+10:16:12,454 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+10:16:12,454 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+10:16:12,454 DEBUG [header] - &lt;&lt; "Vary: Origin, Accept-Encoding[\r][\n]"
+
+10:16:12,454 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+10:16:12,454 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+10:16:12,454 DEBUG [header] - &lt;&lt; "Access-Control-Allow-Credentials: true[\r][\n]"
+
+10:16:12,454 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+10:16:12,454 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+10:16:12,458 DEBUG [header] - &lt;&lt; "Cache-Control: public, max-age=14400[\r][\n]"
+
+10:16:12,458 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+10:16:12,458 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+10:16:12,458 DEBUG [header] - &lt;&lt; "Pragma: no-cache[\r][\n]"
+
+10:16:12,458 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+10:16:12,458 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+10:16:12,458 DEBUG [header] - &lt;&lt; "Expires: Wed, 15 Mar 2017 13:16:12 GMT[\r][\n]"
+
+10:16:12,458 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+10:16:12,458 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+10:16:12,458 DEBUG [header] - &lt;&lt; "X-Content-Type-Options: nosniff[\r][\n]"
+
+10:16:12,458 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+10:16:12,458 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+10:16:12,462 DEBUG [header] - &lt;&lt; "Etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"[\r][\n]"
+
+10:16:12,462 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+10:16:12,462 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+10:16:12,462 DEBUG [header] - &lt;&lt; "Via: 1.1 vegur[\r][\n]"
+
+10:16:12,462 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+10:16:12,462 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+10:16:12,462 DEBUG [header] - &lt;&lt; "CF-Cache-Status: HIT[\r][\n]"
+
+10:16:12,462 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+10:16:12,462 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+10:16:12,462 DEBUG [header] - &lt;&lt; "Server: cloudflare-nginx[\r][\n]"
+
+10:16:12,462 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+10:16:12,466 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+10:16:12,466 DEBUG [header] - &lt;&lt; "CF-RAY: 33fe5f6113001509-CDG[\r][\n]"
+
+10:16:12,466 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+10:16:12,466 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+10:16:12,466 DEBUG [header] - &lt;&lt; "[\r][\n]"
+
+10:16:12,466 DEBUG [HttpMethodBase] - enter HttpMethodBase.processResponseHeaders(HttpState, HttpConnection)
+
+10:16:12,466 DEBUG [HttpMethodBase] - enter HttpMethodBase.processCookieHeaders(Header[], HttpState, HttpConnection)
+
+10:16:12,466 DEBUG [CookieSpec] - enter CookieSpecBase.parse(String, port, path, boolean, String)
+
+10:16:12,466 DEBUG [CookieSpec] - enter CookieSpecBase.parse(String, port, path, boolean, Header)
+
+10:16:12,490 DEBUG [Cookie] - enter Cookie(String, String, String, String, Date, boolean)
+
+10:16:12,494 DEBUG [CookieSpec] - Unrecognized cookie attribute: name=HttpOnly, value=null
+
+10:16:12,494 DEBUG [CookieSpec] - enter RFC2109Spec.validate(String, int, String, boolean, Cookie)
+
+10:16:12,494 DEBUG [CookieSpec] - enter CookieSpecBase.validate(String, port, path, boolean, Cookie)
+
+10:16:12,494 DEBUG [HttpState] - enter HttpState.addCookie(Cookie)
+
+10:16:12,494 DEBUG [CookieSpec] - enter RFC2109Spec.formatCookie(Cookie)
+
+10:16:12,494 DEBUG [HttpMethodBase] - Cookie accepted: "$Version=0; __cfduid=d3964061218123733ca51fdb238b8fd291489569372; $Path=/; $Domain=.typicode.com"
+
+10:16:12,494 DEBUG [HttpMethodBase] - enter HttpMethodBase.readResponseBody(HttpState, HttpConnection)
+
+10:16:12,494 DEBUG [HttpMethodBase] - enter HttpMethodBase.readResponseBody(HttpConnection)
+
+10:16:12,494 DEBUG [HttpConnection] - enter HttpConnection.getResponseInputStream()
+
+10:16:12,498 DEBUG [HttpMethodBase] - enter HttpMethodBase.canResponseHaveBody(int)
+
+10:16:12,498 DEBUG [HttpMethodBase] - Buffering response body
+
+10:16:12,498 DEBUG [content] - &lt;&lt; "{[\n]"
+
+10:16:12,498 DEBUG [content] - &lt;&lt; "  "id": 1,[\n]"
+
+10:16:12,498 DEBUG [content] - &lt;&lt; "  "name": "Leanne Graham",[\n]"
+
+10:16:12,502 DEBUG [content] - &lt;&lt; "  "username": "Bret",[\n]"
+
+10:16:12,502 DEBUG [content] - &lt;&lt; "  "email": "Sincere@april.biz",[\n]"
+
+10:16:12,502 DEBUG [content] - &lt;&lt; "  "address": {[\n]"
+
+10:16:12,502 DEBUG [content] - &lt;&lt; "    "street": "Kulas Light",[\n]"
+
+10:16:12,502 DEBUG [content] - &lt;&lt; "    "suite": "Apt. 556",[\n]"
+
+10:16:12,502 DEBUG [content] - &lt;&lt; "    "city": "Gwenborough",[\n]"
+
+10:16:12,502 DEBUG [content] - &lt;&lt; "    "zipcode": "92998-3874",[\n]"
+
+10:16:12,502 DEBUG [content] - &lt;&lt; "    "geo": {[\n]"
+
+10:16:12,502 DEBUG [content] - &lt;&lt; "      "lat": "-37.3159",[\n]"
+
+10:16:12,502 DEBUG [content] - &lt;&lt; "      "lng": "81.1496"[\n]"
+
+10:16:12,502 DEBUG [content] - &lt;&lt; "    }[\n]"
+
+10:16:12,502 DEBUG [content] - &lt;&lt; "  },[\n]"
+
+10:16:12,502 DEBUG [content] - &lt;&lt; "  "phone": "1-770-736-8031 x56442",[\n]"
+
+10:16:12,502 DEBUG [content] - &lt;&lt; "  "website": "hildegard.org",[\n]"
+
+10:16:12,502 DEBUG [content] - &lt;&lt; "  "company": {[\n]"
+
+10:16:12,502 DEBUG [content] - &lt;&lt; "    "name": "Romaguera-Crona",[\n]"
+
+10:16:12,502 DEBUG [content] - &lt;&lt; "    "catchPhrase": "Multi-layered client-server neural-net",[\n]"
+
+10:16:12,502 DEBUG [content] - &lt;&lt; "    "bs": "harness real-time e-markets"[\n]"
+
+10:16:12,506 DEBUG [content] - &lt;&lt; "  }[\n]"
+
+10:16:12,506 DEBUG [content] - &lt;&lt; "}"
+
+10:16:12,506 DEBUG [HttpMethodBase] - Should NOT close connection in response to directive: keep-alive
+
+10:16:12,506 DEBUG [HttpConnection] - enter HttpConnection.isResponseAvailable()
+
+10:16:12,506 DEBUG [HttpConnection] - enter HttpConnection.releaseConnection()
+
+10:16:12,510 DEBUG [HttpConnection] - Releasing connection back to connection manager.
+
+10:16:12,514 DEBUG [RestClientImpl] - response: [200] OK
+Date:Wed, 15 Mar 2017 09:16:12 GMT
+Content-Type:application/json; charset=utf-8
+Content-Length:509
+Connection:keep-alive
+Set-Cookie:__cfduid=d3964061218123733ca51fdb238b8fd291489569372; expires=Thu, 15-Mar-18 09:16:12 GMT; path=/; domain=.typicode.com; HttpOnly
+X-Powered-By:Express
+Vary:Origin, Accept-Encoding
+Access-Control-Allow-Credentials:true
+Cache-Control:public, max-age=14400
+Pragma:no-cache
+Expires:Wed, 15 Mar 2017 13:16:12 GMT
+X-Content-Type-Options:nosniff
+Etag:W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+Via:1.1 vegur
+CF-Cache-Status:HIT
+Server:cloudflare-nginx
+CF-RAY:33fe5f6113001509-CDG
+
+{
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+
+</stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>5237</totalRunTimeInMillis>
+</testResults>
+

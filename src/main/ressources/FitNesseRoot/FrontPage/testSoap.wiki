@@ -1,0 +1,32 @@
+---
+Help: test
+Suites: test Soap with Talend service
+Test
+---
+!path fixtures
+!path fixtures/*.jar
+
+!define TEST_SYSTEM {slim}
+
+|Import                           |
+|nl.hsac.fitnesse.fixture         |
+|nl.hsac.fitnesse.fixture.slim    |
+
+Send a HTTP POST supplying the content to post in a variable so the script table does not have newlines in its cells. 
+!define POST_BODY { {{{
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://www.talend.org/service/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ser:CustomerServiceOperationRequest>
+         <id>4</id>
+      </ser:CustomerServiceOperationRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+}}} }
+
+|script         |xml http test                                                       				 |
+|post           |${POST_BODY}   |to                   |http://localhost:8040/services/CustomerService|                        |
+|check          |response status|200                                               				     |
+|show           |response                                                           				 |
+|show           |response headers                                                    				 |
+|check          |xPath          |//Phone/text()|907-385-4412|

@@ -1,0 +1,228 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20161106</FitNesseVersion>
+  <rootPath>MyTestSamples.MySimple6</rootPath>
+    <result>
+    <counts>
+      <right>3</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <date>2017-03-27T11:07:00+02:00</date>
+    <runTimeInMillis>1127</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;span class="meta"&gt;classpath: fixtures&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: TEST_SYSTEM=slim&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;Import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;nl.hsac.fitnesse.fixture&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;nl.hsac.fitnesse.fixture.slim&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;Send a HTTP POST supplying the content to post in a variable so the script table does not have newlines in its cells. &lt;br/&gt;&lt;span class="meta"&gt;variable defined: POST_BODY= {{{
+&amp;lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://www.talend.org/service/"&amp;gt;
+   &amp;lt;soapenv:Header/&amp;gt;
+   &amp;lt;soapenv:Body&amp;gt;
+      &amp;lt;ser:CustomerServiceOperationRequest&amp;gt;
+         &amp;lt;id&amp;gt;4&amp;lt;/id&amp;gt;
+      &amp;lt;/ser:CustomerServiceOperationRequest&amp;gt;
+   &amp;lt;/soapenv:Body&amp;gt;
+&amp;lt;/soapenv:Envelope&amp;gt;
+}}} &lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;script&lt;/td&gt;
+		&lt;td colspan="4"&gt;&lt;span class="pass"&gt;xml http test&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;post&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;pre&gt;
+&amp;lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://www.talend.org/service/"&amp;gt;
+   &amp;lt;soapenv:Header/&amp;gt;
+   &amp;lt;soapenv:Body&amp;gt;
+      &amp;lt;ser:CustomerServiceOperationRequest&amp;gt;
+         &amp;lt;id&amp;gt;4&amp;lt;/id&amp;gt;
+      &amp;lt;/ser:CustomerServiceOperationRequest&amp;gt;
+   &amp;lt;/soapenv:Body&amp;gt;
+&amp;lt;/soapenv:Envelope&amp;gt;
+&lt;/pre&gt;&lt;/td&gt;
+		&lt;td&gt;to&lt;/td&gt;
+		&lt;td&gt;&lt;a href="http://localhost:8040/services/CustomerService"&gt;http://localhost:8040/services/CustomerService&lt;/a&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;response status&lt;/td&gt;
+		&lt;td colspan="3"&gt;&lt;span class="pass"&gt;200&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td colspan="4"&gt;response&lt;/td&gt;
+	&lt;td&gt;&lt;pre&gt;&amp;lt;soap:Envelope xmlns:soap=&amp;quot;http://schemas.xmlsoap.org/soap/envelope/&amp;quot;&amp;gt;
+    &amp;lt;soap:Body&amp;gt;
+        &amp;lt;tns:CustomerServiceOperationResponse xmlns:tns=&amp;quot;http://www.talend.org/service/&amp;quot;&amp;gt;
+            &amp;lt;Phone&amp;gt;907-385-4412&amp;lt;/Phone&amp;gt;
+            &amp;lt;Email&amp;gt;lpaprocki@hotmail.com&amp;lt;/Email&amp;gt;
+        &amp;lt;/tns:CustomerServiceOperationResponse&amp;gt;
+    &amp;lt;/soap:Body&amp;gt;
+&amp;lt;/soap:Envelope&amp;gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;show&lt;/td&gt;
+		&lt;td colspan="4"&gt;response headers&lt;/td&gt;
+	&lt;td&gt;&lt;table class="hash_table"&gt;
+	&lt;tr class="hash_row"&gt;
+		&lt;td class="hash_key"&gt;Date&lt;/td&gt;
+		&lt;td class="hash_value"&gt;Mon, 27 Mar 2017 09:07:01 GMT&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="hash_row"&gt;
+		&lt;td class="hash_key"&gt;Content-Type&lt;/td&gt;
+		&lt;td class="hash_value"&gt;text/xml; charset=UTF-8&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="hash_row"&gt;
+		&lt;td class="hash_key"&gt;Content-Length&lt;/td&gt;
+		&lt;td class="hash_value"&gt;292&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="hash_row"&gt;
+		&lt;td class="hash_key"&gt;Server&lt;/td&gt;
+		&lt;td class="hash_value"&gt;Jetty(9.2.19.v20160908)&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;check&lt;/td&gt;
+		&lt;td&gt;xPath&lt;/td&gt;
+		&lt;td&gt;//Phone/text()&lt;/td&gt;
+		&lt;td colspan="2"&gt;&lt;span class="pass"&gt;907-385-4412&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>MySimple6</relativePageName>
+            <instructions>
+            <instructionResult>
+        <instruction>{id='import_0_0', instruction='import', path='nl.hsac.fitnesse.fixture'}</instruction>
+        <slimResult>pass(nl.hsac.fitnesse.fixture)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>import_0_0</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ImportExpectation</type>
+                                        <evaluationMessage>nl.hsac.fitnesse.fixture</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='import_0_1', instruction='import', path='nl.hsac.fitnesse.fixture.slim'}</instruction>
+        <slimResult>pass(nl.hsac.fitnesse.fixture.slim)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>import_0_1</instructionId>
+                    <col>0</col>
+                              <row>2</row>
+                    <type>ImportExpectation</type>
+                                        <evaluationMessage>nl.hsac.fitnesse.fixture.slim</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_0', instruction='make', instanceName='scriptTableActor', className='XmlHttpTest', args=[]}</instruction>
+        <slimResult>pass(xml http test)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_0</instructionId>
+                    <col>1</col>
+                              <row>0</row>
+                    <type>ConstructionExpectation</type>
+                                        <evaluationMessage>xml http test</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_1', instruction='call', instanceName='scriptTableActor', methodName='postTo', args=[&lt;pre&gt;
+&amp;lt;soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://www.talend.org/service/"&amp;gt;
+   &amp;lt;soapenv:Header/&amp;gt;
+   &amp;lt;soapenv:Body&amp;gt;
+      &amp;lt;ser:CustomerServiceOperationRequest&amp;gt;
+         &amp;lt;id&amp;gt;4&amp;lt;/id&amp;gt;
+      &amp;lt;/ser:CustomerServiceOperationRequest&amp;gt;
+   &amp;lt;/soapenv:Body&amp;gt;
+&amp;lt;/soapenv:Envelope&amp;gt;
+&lt;/pre&gt;, &lt;a href="http://localhost:8040/services/CustomerService"&gt;http://localhost:8040/services/CustomerService&lt;/a&gt;]}</instruction>
+        <slimResult>pass()</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_1</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_2', instruction='call', instanceName='scriptTableActor', methodName='responseStatus', args=[]}</instruction>
+        <slimResult>pass(200)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_2</instructionId>
+                    <col>2</col>
+                              <row>2</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>200</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_3', instruction='call', instanceName='scriptTableActor', methodName='response', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_1_3</instructionId>
+                    <col>0</col>
+                              <row>3</row>
+                    <type>ShowActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_4', instruction='call', instanceName='scriptTableActor', methodName='responseHeaders', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_1_4</instructionId>
+                    <col>0</col>
+                              <row>4</row>
+                    <type>ShowActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_1_5', instruction='call', instanceName='scriptTableActor', methodName='xPath', args=[//Phone/text()]}</instruction>
+        <slimResult>pass(907-385-4412)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_1_5</instructionId>
+                    <col>3</col>
+                              <row>5</row>
+                    <type>ReturnedValueExpectation</type>
+                                        <evaluationMessage>907-385-4412</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+          </instructions>
+      </result>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>"C:\Program Files\Java\jdk1.8.0_121\bin\java" -cp C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\fitnesse-20161106.jar;fixtures;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\accessors-smart-1.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\ant-1.9.6.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\ant-launcher-1.9.6.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\asm-5.0.3.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\cglib-nodep-3.2.2.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\cglib-nodep-3.2.4.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\commons-codec-1.6.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\commons-codec-1.9.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\commons-collections-3.2.2.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\commons-exec-1.3.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\commons-httpclient-3.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\commons-io-2.4.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\commons-lang-2.6.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\commons-lang3-3.4.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\commons-lang3-3.5.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\commons-logging-1.0.4.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\commons-net-3.3.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\commons-net-3.5.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\diff-1.1.11.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\diffutils-1.3.0.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\fitnesse-20161106.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\freemarker-2.3.23.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\gson-2.3.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\guava-19.0.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\hsac-fitnesse-fixtures-2.11.2.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\htmllexer-2.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\htmlparser-2.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\httpclient-4.3.6.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\httpclient-4.5.2.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\httpcore-4.3.3.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\httpcore-4.4.4.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\httpmime-4.3.6.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\httpmime-4.5.2.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\jcl-over-slf4j-1.7.21.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\jcl-over-slf4j-1.7.22.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\jettison-1.3.2.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\jna-4.1.0.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\jna-platform-4.1.0.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\json-20151123.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\json-path-2.2.0.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\json-smart-2.2.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\junit-4.8.2.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\log4j-1.2.17.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\netty-3.5.7.Final.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\phantomjsdriver-1.3.0.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\rhino-1.7R3.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\selenium-api-2.53.0.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\selenium-api-2.53.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\selenium-chrome-driver-2.53.0.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\selenium-chrome-driver-2.53.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\selenium-edge-driver-2.53.0.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\selenium-edge-driver-2.53.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\selenium-firefox-driver-2.53.0.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\selenium-firefox-driver-2.53.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\selenium-ie-driver-2.53.0.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\selenium-ie-driver-2.53.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\selenium-java-2.53.0.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\selenium-java-2.53.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\selenium-leg-rc-2.53.0.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\selenium-leg-rc-2.53.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\selenium-remote-driver-2.53.0.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\selenium-remote-driver-2.53.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\selenium-safari-driver-2.53.0.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\selenium-safari-driver-2.53.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\selenium-support-2.53.0.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\selenium-support-2.53.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\slf4j-api-1.6.6.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\slf4j-api-1.7.21.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\slf4j-jdk14-1.7.21.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\slf4j-jdk14-1.7.22.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\slf4j-log4j12-1.7.20.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\smartrics-RestClient-2.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\smartrics-RestFixture-4.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\stax-api-1.0.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\velocity-1.7.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\xmlpull-1.1.3.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\xpp3_min-1.1.4c.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\xstream-1.4.2.jar fitnesse.slim.SlimService 1</command>
+    <exitCode>0</exitCode>
+    <stdOut></stdOut>
+    <stdErr>SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/Users/abamri/Desktop/maven-project-fitnesse/target/dependencies/slf4j-jdk14-1.7.21.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/C:/Users/abamri/Desktop/maven-project-fitnesse/target/dependencies/slf4j-jdk14-1.7.22.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/C:/Users/abamri/Desktop/maven-project-fitnesse/target/dependencies/slf4j-log4j12-1.7.20.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.JDK14LoggerFactory]
+</stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>1</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>2051</totalRunTimeInMillis>
+</testResults>
+

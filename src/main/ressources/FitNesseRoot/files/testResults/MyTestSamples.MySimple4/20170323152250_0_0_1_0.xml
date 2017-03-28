@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20161106</FitNesseVersion>
+  <rootPath>MyTestSamples.MySimple4</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <date>2017-03-23T15:22:52+01:00</date>
+    <runTimeInMillis>190</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;Import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;smartrics.rest.fitnesse.fixture&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;| Table: Rest Fixture |&lt;a href="http://127.0.0.1:8040/services/"&gt;http://127.0.0.1:8040/services/&lt;/a&gt; |&lt;br/&gt;|GET    | services/employees |200  | Content-Type: application/xml; |&amp;lt;employees&amp;gt;&lt;br/&gt;&amp;lt;employee id="1"&amp;gt;&lt;br/&gt;&amp;lt;firstname&amp;gt;Lyndon&amp;lt;/firstname&amp;gt;&lt;br/&gt;&amp;lt;lastname&amp;gt;Monroe&amp;lt;/lastname&amp;gt;&lt;br/&gt;&amp;lt;/employee&amp;gt;&lt;br/&gt;&amp;lt;employee id="2"&amp;gt;&lt;br/&gt;&amp;lt;firstname&amp;gt;John&amp;lt;/firstname&amp;gt;&lt;br/&gt;&amp;lt;lastname&amp;gt;Johnson&amp;lt;/lastname&amp;gt;&lt;br/&gt;&amp;lt;/employee&amp;gt;&lt;br/&gt;&amp;lt;employee id="3"&amp;gt;&lt;br/&gt;&amp;lt;firstname&amp;gt;Calvin&amp;lt;/firstname&amp;gt;&lt;br/&gt;&amp;lt;lastname&amp;gt;McKinley&amp;lt;/lastname&amp;gt;&lt;br/&gt;&amp;lt;/employee&amp;gt;&lt;br/&gt;&amp;lt;employee id="4"&amp;gt;&lt;br/&gt;&amp;lt;firstname&amp;gt;Andrew&amp;lt;/firstname&amp;gt;&lt;br/&gt;&amp;lt;lastname&amp;gt;Truman&amp;lt;/lastname&amp;gt;&lt;br/&gt;&amp;lt;/employee&amp;gt;&lt;br/&gt;&amp;lt;employee id="5"&amp;gt;&lt;br/&gt;&amp;lt;firstname&amp;gt;Richard&amp;lt;/firstname&amp;gt;&lt;br/&gt;&amp;lt;lastname&amp;gt;Taft&amp;lt;/lastname&amp;gt;&lt;br/&gt;&amp;lt;/employee&amp;gt;&lt;br/&gt;&amp;lt;employee id="6"&amp;gt;&lt;br/&gt;&amp;lt;firstname&amp;gt;Andrew&amp;lt;/firstname&amp;gt;&lt;br/&gt;&amp;lt;lastname&amp;gt;Adams&amp;lt;/lastname&amp;gt;&lt;br/&gt;&amp;lt;/employee&amp;gt;&lt;br/&gt;&amp;lt;employee id="7"&amp;gt;&lt;br/&gt;&amp;lt;firstname&amp;gt;Herbert&amp;lt;/firstname&amp;gt;&lt;br/&gt;&amp;lt;lastname&amp;gt;Buchanan&amp;lt;/lastname&amp;gt;&lt;br/&gt;&amp;lt;/employee&amp;gt;&lt;br/&gt;&amp;lt;employee id="8"&amp;gt;&lt;br/&gt;&amp;lt;firstname&amp;gt;Bill&amp;lt;/firstname&amp;gt;&lt;br/&gt;&amp;lt;lastname&amp;gt;Carter&amp;lt;/lastname&amp;gt;&lt;br/&gt;&amp;lt;/employee&amp;gt;&lt;br/&gt;&amp;lt;employee id="9"&amp;gt;&lt;br/&gt;&amp;lt;firstname&amp;gt;Ulysses&amp;lt;/firstname&amp;gt;&lt;br/&gt;&amp;lt;lastname&amp;gt;Jackson&amp;lt;/lastname&amp;gt;&lt;br/&gt;&amp;lt;/employee&amp;gt;&lt;br/&gt;&amp;lt;employee id="10"&amp;gt;&lt;br/&gt;&amp;lt;firstname&amp;gt;Warren&amp;lt;/firstname&amp;gt;&lt;br/&gt;&amp;lt;lastname&amp;gt;McKinley&amp;lt;/lastname&amp;gt;&lt;br/&gt;&amp;lt;/employee&amp;gt;&lt;br/&gt;&amp;lt;/employees&amp;gt; |&lt;br/&gt;</content>
+    <relativePageName>MySimple4</relativePageName>
+            <instructions>
+            <instructionResult>
+        <instruction>{id='import_0_0', instruction='import', path='smartrics.rest.fitnesse.fixture'}</instruction>
+        <slimResult>pass(smartrics.rest.fitnesse.fixture)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>import_0_0</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ImportExpectation</type>
+                                        <evaluationMessage>smartrics.rest.fitnesse.fixture</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+          </instructions>
+      </result>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>"C:\Program Files\Java\jdk1.8.0_121\bin\java" -cp C:\fitnesse-standalone.jar;target/dependencies/*.jar fitnesse.slim.SlimService 1</command>
+    <exitCode>0</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>1</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>2676</totalRunTimeInMillis>
+</testResults>
+

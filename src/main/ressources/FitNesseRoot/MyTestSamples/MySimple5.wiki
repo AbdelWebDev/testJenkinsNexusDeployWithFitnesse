@@ -1,0 +1,8 @@
+---
+Test
+---
+|Symbols|
+|key|value|
+|customerUrl|http://localhost:8040/services|
+|Get Customer||
+|id	|customer?|

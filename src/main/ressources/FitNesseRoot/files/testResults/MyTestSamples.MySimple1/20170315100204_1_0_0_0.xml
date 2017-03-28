@@ -1,0 +1,1141 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20161106</FitNesseVersion>
+  <rootPath>MyTestSamples.MySimple1</rootPath>
+    <result>
+    <counts>
+      <right>4</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <date>2017-03-15T10:02:06+01:00</date>
+    <runTimeInMillis>2740</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;Import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;smartrics.rest.fitnesse.fixture&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;Table: Rest Fixture&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="4"&gt;&lt;a href="http://jsonplaceholder.typicode.com/"&gt;http://jsonplaceholder.typicode.com/&lt;/a&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;GET&lt;/td&gt;
+		&lt;td&gt;&lt;div&gt;&lt;a href='http://jsonplaceholder.typicode.com/users'&gt;/users&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;&lt;div&gt;200&lt;/div&gt;&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;&lt;div&gt;Content-Type&amp;nbsp;:&amp;nbsp;application/json;&amp;nbsp;charset=utf-8&lt;br/&gt;&lt;i&gt;&lt;span class='fit_label'&gt;expected&lt;/span&gt;&lt;/i&gt;&lt;hr/&gt;&lt;br/&gt;Date&amp;nbsp;:&amp;nbsp;Wed,&amp;nbsp;15&amp;nbsp;Mar&amp;nbsp;2017&amp;nbsp;09:02:08&amp;nbsp;GMT&lt;br/&gt;Content-Type&amp;nbsp;:&amp;nbsp;application/json;&amp;nbsp;charset=utf-8&lt;br/&gt;Transfer-Encoding&amp;nbsp;:&amp;nbsp;chunked&lt;br/&gt;Connection&amp;nbsp;:&amp;nbsp;keep-alive&lt;br/&gt;Set-Cookie&amp;nbsp;:&amp;nbsp;__cfduid=d497637132b3775498d3e706eb2252e651489568528;&amp;nbsp;expires=Thu,&amp;nbsp;15-Mar-18&amp;nbsp;09:02:08&amp;nbsp;GMT;&amp;nbsp;path=/;&amp;nbsp;domain=.typicode.com;&amp;nbsp;HttpOnly&lt;br/&gt;X-Powered-By&amp;nbsp;:&amp;nbsp;Express&lt;br/&gt;Vary&amp;nbsp;:&amp;nbsp;Origin,&amp;nbsp;Accept-Encoding&lt;br/&gt;Access-Control-Allow-Credentials&amp;nbsp;:&amp;nbsp;true&lt;br/&gt;Cache-Control&amp;nbsp;:&amp;nbsp;public,&amp;nbsp;max-age=14400&lt;br/&gt;Pragma&amp;nbsp;:&amp;nbsp;no-cache&lt;br/&gt;Expires&amp;nbsp;:&amp;nbsp;Wed,&amp;nbsp;15&amp;nbsp;Mar&amp;nbsp;2017&amp;nbsp;13:02:08&amp;nbsp;GMT&lt;br/&gt;X-Content-Type-Options&amp;nbsp;:&amp;nbsp;nosniff&lt;br/&gt;Etag&amp;nbsp;:&amp;nbsp;W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"&lt;br/&gt;Via&amp;nbsp;:&amp;nbsp;1.1&amp;nbsp;vegur&lt;br/&gt;CF-Cache-Status&amp;nbsp;:&amp;nbsp;HIT&lt;br/&gt;Server&amp;nbsp;:&amp;nbsp;cloudflare-nginx&lt;br/&gt;CF-RAY&amp;nbsp;:&amp;nbsp;33fe4ac740ea3c53-CDG&lt;br/&gt;&lt;i&gt;&lt;span class='fit_label'&gt;actual&lt;/span&gt;&lt;/i&gt;&lt;/div&gt;&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;&lt;div&gt;jsonbody.length&amp;nbsp;==&amp;nbsp;10&lt;br/&gt;&lt;i&gt;&lt;span class='fit_label'&gt;expected&lt;/span&gt;&lt;/i&gt;&lt;hr/&gt;&lt;br/&gt;[&lt;br/&gt;&amp;nbsp;&amp;nbsp;{&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"id":&amp;nbsp;1,&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"name":&amp;nbsp;"Leanne&amp;nbsp;Graham",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"username":&amp;nbsp;"Bret",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"email":&amp;nbsp;"Sincere@april.biz",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"address":&amp;nbsp;{&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"street":&amp;nbsp;"Kulas&amp;nbsp;Light",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"suite":&amp;nbsp;"Apt.&amp;nbsp;556",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"city":&amp;nbsp;"Gwenborough",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"zipcode":&amp;nbsp;"92998-3874",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"geo":&amp;nbsp;{&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"lat":&amp;nbsp;"-37.3159",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"lng":&amp;nbsp;"81.1496"&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;},&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"phone":&amp;nbsp;"1-770-736-8031&amp;nbsp;x56442",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"website":&amp;nbsp;"hildegard.org",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"company":&amp;nbsp;{&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"name":&amp;nbsp;"Romaguera-Crona",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"catchPhrase":&amp;nbsp;"Multi-layered&amp;nbsp;client-server&amp;nbsp;neural-net",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"bs":&amp;nbsp;"harness&amp;nbsp;real-time&amp;nbsp;e-markets"&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&lt;br/&gt;&amp;nbsp;&amp;nbsp;},&lt;br/&gt;&amp;nbsp;&amp;nbsp;{&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"id":&amp;nbsp;2,&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"name":&amp;nbsp;"Ervin&amp;nbsp;Howell",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"username":&amp;nbsp;"Antonette",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"email":&amp;nbsp;"Shanna@melissa.tv",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"address":&amp;nbsp;{&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"street":&amp;nbsp;"Victor&amp;nbsp;Plains",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"suite":&amp;nbsp;"Suite&amp;nbsp;879",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"city":&amp;nbsp;"Wisokyburgh",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"zipcode":&amp;nbsp;"90566-7771",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"geo":&amp;nbsp;{&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"lat":&amp;nbsp;"-43.9509",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"lng":&amp;nbsp;"-34.4618"&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;},&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"phone":&amp;nbsp;"010-692-6593&amp;nbsp;x09125",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"website":&amp;nbsp;"anastasia.net",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"company":&amp;nbsp;{&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"name":&amp;nbsp;"Deckow-Crist",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"catchPhrase":&amp;nbsp;"Proactive&amp;nbsp;didactic&amp;nbsp;contingency",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"bs":&amp;nbsp;"synergize&amp;nbsp;scalable&amp;nbsp;supply-chains"&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&lt;br/&gt;&amp;nbsp;&amp;nbsp;},&lt;br/&gt;&amp;nbsp;&amp;nbsp;{&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"id":&amp;nbsp;3,&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"name":&amp;nbsp;"Clementine&amp;nbsp;Bauch",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"username":&amp;nbsp;"Samantha",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"email":&amp;nbsp;"Nathan@yesenia.net",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"address":&amp;nbsp;{&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"street":&amp;nbsp;"Douglas&amp;nbsp;Extension",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"suite":&amp;nbsp;"Suite&amp;nbsp;847",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"city":&amp;nbsp;"McKenziehaven",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"zipcode":&amp;nbsp;"59590-4157",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"geo":&amp;nbsp;{&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"lat":&amp;nbsp;"-68.6102",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"lng":&amp;nbsp;"-47.0653"&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;},&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"phone":&amp;nbsp;"1-463-123-4447",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"website":&amp;nbsp;"ramiro.info",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"company":&amp;nbsp;{&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"name":&amp;nbsp;"Romaguera-Jacobson",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"catchPhrase":&amp;nbsp;"Face&amp;nbsp;to&amp;nbsp;face&amp;nbsp;bifurcated&amp;nbsp;interface",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"bs":&amp;nbsp;"e-enable&amp;nbsp;strategic&amp;nbsp;applications"&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&lt;br/&gt;&amp;nbsp;&amp;nbsp;},&lt;br/&gt;&amp;nbsp;&amp;nbsp;{&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"id":&amp;nbsp;4,&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"name":&amp;nbsp;"Patricia&amp;nbsp;Lebsack",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"username":&amp;nbsp;"Karianne",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"email":&amp;nbsp;"Julianne.OConner@kory.org",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"address":&amp;nbsp;{&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"street":&amp;nbsp;"Hoeger&amp;nbsp;Mall",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"suite":&amp;nbsp;"Apt.&amp;nbsp;692",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"city":&amp;nbsp;"South&amp;nbsp;Elvis",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"zipcode":&amp;nbsp;"53919-4257",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"geo":&amp;nbsp;{&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"lat":&amp;nbsp;"29.4572",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"lng":&amp;nbsp;"-164.2990"&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;},&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"phone":&amp;nbsp;"493-170-9623&amp;nbsp;x156",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"website":&amp;nbsp;"kale.biz",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"company":&amp;nbsp;{&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"name":&amp;nbsp;"Robel-Corkery",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"catchPhrase":&amp;nbsp;"Multi-tiered&amp;nbsp;zero&amp;nbsp;tolerance&amp;nbsp;productivity",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"bs":&amp;nbsp;"transition&amp;nbsp;cutting-edge&amp;nbsp;web&amp;nbsp;services"&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&lt;br/&gt;&amp;nbsp;&amp;nbsp;},&lt;br/&gt;&amp;nbsp;&amp;nbsp;{&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"id":&amp;nbsp;5,&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"name":&amp;nbsp;"Chelsey&amp;nbsp;Dietrich",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"username":&amp;nbsp;"Kamren",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"email":&amp;nbsp;"Lucio_Hettinger@annie.ca",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"address":&amp;nbsp;{&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"street":&amp;nbsp;"Skiles&amp;nbsp;Walks",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"suite":&amp;nbsp;"Suite&amp;nbsp;351",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"city":&amp;nbsp;"Roscoeview",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"zipcode":&amp;nbsp;"33263",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"geo":&amp;nbsp;{&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"lat":&amp;nbsp;"-31.8129",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"lng":&amp;nbsp;"62.5342"&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;},&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"phone":&amp;nbsp;"(254)954-1289",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"website":&amp;nbsp;"demarco.info",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"company":&amp;nbsp;{&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"name":&amp;nbsp;"Keebler&amp;nbsp;LLC",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"catchPhrase":&amp;nbsp;"User-centric&amp;nbsp;fault-tolerant&amp;nbsp;solution",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"bs":&amp;nbsp;"revolutionize&amp;nbsp;end-to-end&amp;nbsp;systems"&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&lt;br/&gt;&amp;nbsp;&amp;nbsp;},&lt;br/&gt;&amp;nbsp;&amp;nbsp;{&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"id":&amp;nbsp;6,&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"name":&amp;nbsp;"Mrs.&amp;nbsp;Dennis&amp;nbsp;Schulist",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"username":&amp;nbsp;"Leopoldo_Corkery",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"email":&amp;nbsp;"Karley_Dach@jasper.info",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"address":&amp;nbsp;{&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"street":&amp;nbsp;"Norberto&amp;nbsp;Crossing",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"suite":&amp;nbsp;"Apt.&amp;nbsp;950",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"city":&amp;nbsp;"South&amp;nbsp;Christy",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"zipcode":&amp;nbsp;"23505-1337",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"geo":&amp;nbsp;{&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"lat":&amp;nbsp;"-71.4197",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"lng":&amp;nbsp;"71.7478"&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;},&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"phone":&amp;nbsp;"1-477-935-8478&amp;nbsp;x6430",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"website":&amp;nbsp;"ola.org",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"company":&amp;nbsp;{&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"name":&amp;nbsp;"Considine-Lockman",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"catchPhrase":&amp;nbsp;"Synchronised&amp;nbsp;bottom-line&amp;nbsp;interface",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"bs":&amp;nbsp;"e-enable&amp;nbsp;innovative&amp;nbsp;applications"&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&lt;br/&gt;&amp;nbsp;&amp;nbsp;},&lt;br/&gt;&amp;nbsp;&amp;nbsp;{&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"id":&amp;nbsp;7,&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"name":&amp;nbsp;"Kurtis&amp;nbsp;Weissnat",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"username":&amp;nbsp;"Elwyn.Skiles",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"email":&amp;nbsp;"Telly.Hoeger@billy.biz",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"address":&amp;nbsp;{&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"street":&amp;nbsp;"Rex&amp;nbsp;Trail",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"suite":&amp;nbsp;"Suite&amp;nbsp;280",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"city":&amp;nbsp;"Howemouth",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"zipcode":&amp;nbsp;"58804-1099",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"geo":&amp;nbsp;{&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"lat":&amp;nbsp;"24.8918",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"lng":&amp;nbsp;"21.8984"&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;},&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"phone":&amp;nbsp;"210.067.6132",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"website":&amp;nbsp;"elvis.io",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"company":&amp;nbsp;{&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"name":&amp;nbsp;"Johns&amp;nbsp;Group",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"catchPhrase":&amp;nbsp;"Configurable&amp;nbsp;multimedia&amp;nbsp;task-force",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"bs":&amp;nbsp;"generate&amp;nbsp;enterprise&amp;nbsp;e-tailers"&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&lt;br/&gt;&amp;nbsp;&amp;nbsp;},&lt;br/&gt;&amp;nbsp;&amp;nbsp;{&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"id":&amp;nbsp;8,&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"name":&amp;nbsp;"Nicholas&amp;nbsp;Runolfsdottir&amp;nbsp;V",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"username":&amp;nbsp;"Maxime_Nienow",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"email":&amp;nbsp;"Sherwood@rosamond.me",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"address":&amp;nbsp;{&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"street":&amp;nbsp;"Ellsworth&amp;nbsp;Summit",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"suite":&amp;nbsp;"Suite&amp;nbsp;729",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"city":&amp;nbsp;"Aliyaview",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"zipcode":&amp;nbsp;"45169",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"geo":&amp;nbsp;{&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"lat":&amp;nbsp;"-14.3990",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"lng":&amp;nbsp;"-120.7677"&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;},&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"phone":&amp;nbsp;"586.493.6943&amp;nbsp;x140",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"website":&amp;nbsp;"jacynthe.com",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"company":&amp;nbsp;{&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"name":&amp;nbsp;"Abernathy&amp;nbsp;Group",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"catchPhrase":&amp;nbsp;"Implemented&amp;nbsp;secondary&amp;nbsp;concept",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"bs":&amp;nbsp;"e-enable&amp;nbsp;extensible&amp;nbsp;e-tailers"&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&lt;br/&gt;&amp;nbsp;&amp;nbsp;},&lt;br/&gt;&amp;nbsp;&amp;nbsp;{&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"id":&amp;nbsp;9,&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"name":&amp;nbsp;"Glenna&amp;nbsp;Reichert",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"username":&amp;nbsp;"Delphine",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"email":&amp;nbsp;"Chaim_McDermott@dana.io",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"address":&amp;nbsp;{&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"street":&amp;nbsp;"Dayna&amp;nbsp;Park",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"suite":&amp;nbsp;"Suite&amp;nbsp;449",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"city":&amp;nbsp;"Bartholomebury",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"zipcode":&amp;nbsp;"76495-3109",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"geo":&amp;nbsp;{&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"lat":&amp;nbsp;"24.6463",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"lng":&amp;nbsp;"-168.8889"&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;},&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"phone":&amp;nbsp;"(775)976-6794&amp;nbsp;x41206",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"website":&amp;nbsp;"conrad.com",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"company":&amp;nbsp;{&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"name":&amp;nbsp;"Yost&amp;nbsp;and&amp;nbsp;Sons",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"catchPhrase":&amp;nbsp;"Switchable&amp;nbsp;contextually-based&amp;nbsp;project",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"bs":&amp;nbsp;"aggregate&amp;nbsp;real-time&amp;nbsp;technologies"&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&lt;br/&gt;&amp;nbsp;&amp;nbsp;},&lt;br/&gt;&amp;nbsp;&amp;nbsp;{&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"id":&amp;nbsp;10,&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"name":&amp;nbsp;"Clementina&amp;nbsp;DuBuque",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"username":&amp;nbsp;"Moriah.Stanton",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"email":&amp;nbsp;"Rey.Padberg@karina.biz",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"address":&amp;nbsp;{&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"street":&amp;nbsp;"Kattie&amp;nbsp;Turnpike",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"suite":&amp;nbsp;"Suite&amp;nbsp;198",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"city":&amp;nbsp;"Lebsackbury",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"zipcode":&amp;nbsp;"31428-2261",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"geo":&amp;nbsp;{&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"lat":&amp;nbsp;"-38.2386",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"lng":&amp;nbsp;"57.2232"&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;},&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"phone":&amp;nbsp;"024-648-3804",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"website":&amp;nbsp;"ambrose.net",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"company":&amp;nbsp;{&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"name":&amp;nbsp;"Hoeger&amp;nbsp;LLC",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"catchPhrase":&amp;nbsp;"Centralized&amp;nbsp;empowering&amp;nbsp;task-force",&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"bs":&amp;nbsp;"target&amp;nbsp;end-to-end&amp;nbsp;models"&lt;br/&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&lt;br/&gt;&amp;nbsp;&amp;nbsp;}&lt;br/&gt;]&lt;br/&gt;&lt;i&gt;&lt;span class='fit_label'&gt;actual&lt;/span&gt;&lt;/i&gt;&lt;/div&gt;&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>MySimple1</relativePageName>
+            <instructions>
+            <instructionResult>
+        <instruction>{id='import_0_0', instruction='import', path='smartrics.rest.fitnesse.fixture'}</instruction>
+        <slimResult>pass(smartrics.rest.fitnesse.fixture)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>import_0_0</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ImportExpectation</type>
+                                        <evaluationMessage>smartrics.rest.fitnesse.fixture</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='tableTable_1_0', instruction='make', instanceName='tableTable_1', className='RestFixture', args=[&lt;a href="http://jsonplaceholder.typicode.com/"&gt;http://jsonplaceholder.typicode.com/&lt;/a&gt;]}</instruction>
+        <slimResult>pass(Table: Rest Fixture)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>tableTable_1_0</instructionId>
+                    <col>0</col>
+                              <row>0</row>
+                    <type>ConstructionExpectation</type>
+                                        <evaluationMessage>Table: Rest Fixture</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='tableTable_1_1', instruction='call', instanceName='tableTable_1', methodName='doTable', args=[[[GET, /users, 200, Content-Type : application/json; charset=utf-8, jsonbody.length == 10]]]}</instruction>
+        <slimResult>pass()</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>tableTable_1_1</instructionId>
+                              <type>TableTableExpectation</type>
+                                      </expectation>
+              </instructionResult>
+          </instructions>
+      </result>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>"C:\Program Files\Java\jdk1.8.0_121\bin\java" -cp C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\fitnesse-20161106.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\ant-1.9.6.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\ant-launcher-1.9.6.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\commons-codec-1.2.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\commons-collections-3.2.2.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\commons-httpclient-3.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\commons-lang-2.6.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\commons-logging-1.0.4.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\diffutils-1.3.0.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\fitnesse-20161106.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\htmllexer-2.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\htmlparser-2.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\jettison-1.3.2.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\json-20151123.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\junit-4.8.2.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\log4j-1.2.17.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\rhino-1.7R3.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\slf4j-api-1.7.20.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\slf4j-log4j12-1.7.20.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\smartrics-RestClient-2.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\smartrics-RestFixture-4.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\stax-api-1.0.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\velocity-1.7.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\xmlpull-1.1.3.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\xpp3_min-1.1.4c.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\xstream-1.4.2.jar fitnesse.slim.SlimService 1</command>
+    <exitCode>0</exitCode>
+    <stdOut>10:02:07,897 DEBUG [DefaultHttpParams] - Set parameter http.useragent = Jakarta Commons-HttpClient/3.1
+
+10:02:07,901 DEBUG [DefaultHttpParams] - Set parameter http.protocol.version = HTTP/1.1
+
+10:02:07,909 DEBUG [DefaultHttpParams] - Set parameter http.connection-manager.class = class org.apache.commons.httpclient.SimpleHttpConnectionManager
+
+10:02:07,909 DEBUG [DefaultHttpParams] - Set parameter http.protocol.cookie-policy = default
+
+10:02:07,909 DEBUG [DefaultHttpParams] - Set parameter http.protocol.element-charset = US-ASCII
+
+10:02:07,909 DEBUG [DefaultHttpParams] - Set parameter http.protocol.content-charset = ISO-8859-1
+
+10:02:07,913 DEBUG [DefaultHttpParams] - Set parameter http.method.retry-handler = org.apache.commons.httpclient.DefaultHttpMethodRetryHandler@6f79caec
+
+10:02:07,913 DEBUG [DefaultHttpParams] - Set parameter http.dateparser.patterns = [EEE, dd MMM yyyy HH:mm:ss zzz, EEEE, dd-MMM-yy HH:mm:ss zzz, EEE MMM d HH:mm:ss yyyy, EEE, dd-MMM-yyyy HH:mm:ss z, EEE, dd-MMM-yyyy HH-mm-ss z, EEE, dd MMM yy HH:mm:ss z, EEE dd-MMM-yyyy HH:mm:ss z, EEE dd MMM yyyy HH:mm:ss z, EEE dd-MMM-yyyy HH-mm-ss z, EEE dd-MMM-yy HH:mm:ss z, EEE dd MMM yy HH:mm:ss z, EEE,dd-MMM-yy HH:mm:ss z, EEE,dd-MMM-yyyy HH:mm:ss z, EEE, dd-MM-yyyy HH:mm:ss z]
+
+10:02:07,913 DEBUG [DefaultHttpParams] - Set parameter http.socket.timeout = 3000
+
+10:02:07,913 DEBUG [DefaultHttpParams] - Set parameter http.socket.timeout = 3000
+
+10:02:07,921 DEBUG [HttpClient] - Java version: 1.8.0_121
+
+10:02:07,921 DEBUG [HttpClient] - Java vendor: Oracle Corporation
+
+10:02:07,921 DEBUG [HttpClient] - Java class path: C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\fitnesse-20161106.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\ant-1.9.6.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\ant-launcher-1.9.6.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\commons-codec-1.2.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\commons-collections-3.2.2.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\commons-httpclient-3.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\commons-lang-2.6.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\commons-logging-1.0.4.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\diffutils-1.3.0.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\fitnesse-20161106.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\htmllexer-2.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\htmlparser-2.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\jettison-1.3.2.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\json-20151123.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\junit-4.8.2.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\log4j-1.2.17.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\rhino-1.7R3.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\slf4j-api-1.7.20.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\slf4j-log4j12-1.7.20.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\smartrics-RestClient-2.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\smartrics-RestFixture-4.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\stax-api-1.0.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\velocity-1.7.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\xmlpull-1.1.3.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\xpp3_min-1.1.4c.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\xstream-1.4.2.jar
+
+10:02:07,925 DEBUG [HttpClient] - Operating system name: Windows 10
+
+10:02:07,925 DEBUG [HttpClient] - Operating system architecture: amd64
+
+10:02:07,929 DEBUG [HttpClient] - Operating system version: 10.0
+
+10:02:08,329 DEBUG [HttpClient] - SUN 1.8: SUN (DSA key/parameter generation; DSA signing; SHA-1, MD5 digests; SecureRandom; X.509 certificates; JKS &amp; DKS keystores; PKIX CertPathValidator; PKIX CertPathBuilder; LDAP, Collection CertStores, JavaPolicy Policy; JavaLoginConfig Configuration)
+
+10:02:08,329 DEBUG [HttpClient] - SunRsaSign 1.8: Sun RSA signature provider
+
+10:02:08,329 DEBUG [HttpClient] - SunEC 1.8: Sun Elliptic Curve provider (EC, ECDSA, ECDH)
+
+10:02:08,329 DEBUG [HttpClient] - SunJSSE 1.8: Sun JSSE provider(PKCS12, SunX509/PKIX key/trust factories, SSLv3/TLSv1/TLSv1.1/TLSv1.2)
+
+10:02:08,329 DEBUG [HttpClient] - SunJCE 1.8: SunJCE Provider (implements RSA, DES, Triple DES, AES, Blowfish, ARCFOUR, RC2, PBE, Diffie-Hellman, HMAC)
+
+10:02:08,329 DEBUG [HttpClient] - SunJGSS 1.8: Sun (Kerberos v5, SPNEGO)
+
+10:02:08,329 DEBUG [HttpClient] - SunSASL 1.8: Sun SASL provider(implements client mechanisms for: DIGEST-MD5, GSSAPI, EXTERNAL, PLAIN, CRAM-MD5, NTLM; server mechanisms for: DIGEST-MD5, GSSAPI, CRAM-MD5, NTLM)
+
+10:02:08,329 DEBUG [HttpClient] - XMLDSig 1.8: XMLDSig (DOM XMLSignatureFactory; DOM KeyInfoFactory; C14N 1.0, C14N 1.1, Exclusive C14N, Base64, Enveloped, XPath, XPath2, XSLT TransformServices)
+
+10:02:08,329 DEBUG [HttpClient] - SunPCSC 1.8: Sun PC/SC provider
+
+10:02:08,333 DEBUG [HttpClient] - SunMSCAPI 1.8: Sun's Microsoft Crypto API provider
+
+10:02:08,373 DEBUG [RestClientImpl] - request: Get /users
+[empty/null body]
+
+10:02:08,461 DEBUG [HttpClient] - enter HttpClient.executeMethod(HttpMethod)
+
+10:02:08,461 DEBUG [HttpClient] - enter HttpClient.executeMethod(HostConfiguration,HttpMethod,HttpState)
+
+10:02:08,505 DEBUG [HttpMethodDirector] - Attempt number 1 to process request
+
+10:02:08,505 DEBUG [HttpConnection] - enter HttpConnection.open()
+
+10:02:08,505 DEBUG [HttpConnection] - Open connection to jsonplaceholder.typicode.com:80
+
+10:02:08,585 DEBUG [HttpMethodBase] - enter HttpMethodBase.execute(HttpState, HttpConnection)
+
+10:02:08,585 DEBUG [HttpMethodBase] - enter HttpMethodBase.writeRequest(HttpState, HttpConnection)
+
+10:02:08,585 DEBUG [HttpMethodBase] - enter HttpMethodBase.writeRequestLine(HttpState, HttpConnection)
+
+10:02:08,585 DEBUG [HttpMethodBase] - enter HttpMethodBase.generateRequestLine(HttpConnection, String, String, String, String)
+
+10:02:08,589 DEBUG [header] - &gt;&gt; "GET /users HTTP/1.1[\r][\n]"
+
+10:02:08,589 DEBUG [HttpConnection] - enter HttpConnection.print(String)
+
+10:02:08,593 DEBUG [HttpConnection] - enter HttpConnection.write(byte[])
+
+10:02:08,593 DEBUG [HttpConnection] - enter HttpConnection.write(byte[], int, int)
+
+10:02:08,593 DEBUG [HttpMethodBase] - enter HttpMethodBase.writeRequestHeaders(HttpState,HttpConnection)
+
+10:02:08,593 DEBUG [HttpMethodBase] - enter HttpMethodBase.addRequestHeaders(HttpState, HttpConnection)
+
+10:02:08,593 DEBUG [HttpMethodBase] - enter HttpMethodBase.addUserAgentRequestHeaders(HttpState, HttpConnection)
+
+10:02:08,593 DEBUG [HttpMethodBase] - enter HttpMethodBase.addHostRequestHeader(HttpState, HttpConnection)
+
+10:02:08,597 DEBUG [HttpMethodBase] - Adding Host request header
+
+10:02:08,597 DEBUG [HttpMethodBase] - enter HttpMethodBase.addCookieRequestHeader(HttpState, HttpConnection)
+
+10:02:08,625 DEBUG [HttpState] - enter HttpState.getCookies()
+
+10:02:08,625 DEBUG [CookieSpec] - enter CookieSpecBase.match(String, int, String, boolean, Cookie[])
+
+10:02:08,625 DEBUG [HttpMethodBase] - enter HttpMethodBase.addProxyConnectionHeader(HttpState, HttpConnection)
+
+10:02:08,629 DEBUG [header] - &gt;&gt; "User-Agent: Jakarta Commons-HttpClient/3.1[\r][\n]"
+
+10:02:08,629 DEBUG [HttpConnection] - enter HttpConnection.print(String)
+
+10:02:08,629 DEBUG [HttpConnection] - enter HttpConnection.write(byte[])
+
+10:02:08,629 DEBUG [HttpConnection] - enter HttpConnection.write(byte[], int, int)
+
+10:02:08,629 DEBUG [header] - &gt;&gt; "Host: jsonplaceholder.typicode.com[\r][\n]"
+
+10:02:08,629 DEBUG [HttpConnection] - enter HttpConnection.print(String)
+
+10:02:08,629 DEBUG [HttpConnection] - enter HttpConnection.write(byte[])
+
+10:02:08,629 DEBUG [HttpConnection] - enter HttpConnection.write(byte[], int, int)
+
+10:02:08,629 DEBUG [HttpConnection] - enter HttpConnection.writeLine()
+
+10:02:08,629 DEBUG [HttpConnection] - enter HttpConnection.write(byte[])
+
+10:02:08,633 DEBUG [HttpConnection] - enter HttpConnection.write(byte[], int, int)
+
+10:02:08,633 DEBUG [header] - &gt;&gt; "[\r][\n]"
+
+10:02:08,633 DEBUG [HttpConnection] - enter HttpConnection.flushRequestOutputStream()
+
+10:02:08,633 DEBUG [HttpMethodBase] - enter HttpMethodBase.readResponse(HttpState, HttpConnection)
+
+10:02:08,633 DEBUG [HttpMethodBase] - enter HttpMethodBase.readStatusLine(HttpState, HttpConnection)
+
+10:02:08,633 DEBUG [HttpConnection] - enter HttpConnection.readLine()
+
+10:02:08,641 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+10:02:08,641 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+10:02:08,665 DEBUG [header] - &lt;&lt; "HTTP/1.1 200 OK[\r][\n]"
+
+10:02:08,669 DEBUG [header] - &lt;&lt; "HTTP/1.1 200 OK[\r][\n]"
+
+10:02:08,673 DEBUG [HttpMethodBase] - enter HttpMethodBase.readResponseHeaders(HttpState,HttpConnection)
+
+10:02:08,673 DEBUG [HttpConnection] - enter HttpConnection.getResponseInputStream()
+
+10:02:08,673 DEBUG [HttpParser] - enter HeaderParser.parseHeaders(InputStream, String)
+
+10:02:08,673 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+10:02:08,673 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+10:02:08,673 DEBUG [header] - &lt;&lt; "Date: Wed, 15 Mar 2017 09:02:08 GMT[\r][\n]"
+
+10:02:08,673 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+10:02:08,677 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+10:02:08,677 DEBUG [header] - &lt;&lt; "Content-Type: application/json; charset=utf-8[\r][\n]"
+
+10:02:08,677 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+10:02:08,677 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+10:02:08,677 DEBUG [header] - &lt;&lt; "Transfer-Encoding: chunked[\r][\n]"
+
+10:02:08,677 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+10:02:08,677 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+10:02:08,677 DEBUG [header] - &lt;&lt; "Connection: keep-alive[\r][\n]"
+
+10:02:08,677 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+10:02:08,677 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+10:02:08,681 DEBUG [header] - &lt;&lt; "Set-Cookie: __cfduid=d497637132b3775498d3e706eb2252e651489568528; expires=Thu, 15-Mar-18 09:02:08 GMT; path=/; domain=.typicode.com; HttpOnly[\r][\n]"
+
+10:02:08,681 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+10:02:08,681 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+10:02:08,681 DEBUG [header] - &lt;&lt; "X-Powered-By: Express[\r][\n]"
+
+10:02:08,681 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+10:02:08,681 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+10:02:08,681 DEBUG [header] - &lt;&lt; "Vary: Origin, Accept-Encoding[\r][\n]"
+
+10:02:08,681 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+10:02:08,681 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+10:02:08,681 DEBUG [header] - &lt;&lt; "Access-Control-Allow-Credentials: true[\r][\n]"
+
+10:02:08,685 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+10:02:08,685 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+10:02:08,685 DEBUG [header] - &lt;&lt; "Cache-Control: public, max-age=14400[\r][\n]"
+
+10:02:08,685 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+10:02:08,685 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+10:02:08,685 DEBUG [header] - &lt;&lt; "Pragma: no-cache[\r][\n]"
+
+10:02:08,685 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+10:02:08,685 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+10:02:08,685 DEBUG [header] - &lt;&lt; "Expires: Wed, 15 Mar 2017 13:02:08 GMT[\r][\n]"
+
+10:02:08,685 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+10:02:08,689 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+10:02:08,689 DEBUG [header] - &lt;&lt; "X-Content-Type-Options: nosniff[\r][\n]"
+
+10:02:08,689 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+10:02:08,689 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+10:02:08,689 DEBUG [header] - &lt;&lt; "Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"[\r][\n]"
+
+10:02:08,689 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+10:02:08,689 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+10:02:08,689 DEBUG [header] - &lt;&lt; "Via: 1.1 vegur[\r][\n]"
+
+10:02:08,689 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+10:02:08,689 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+10:02:08,689 DEBUG [header] - &lt;&lt; "CF-Cache-Status: HIT[\r][\n]"
+
+10:02:08,689 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+10:02:08,693 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+10:02:08,693 DEBUG [header] - &lt;&lt; "Server: cloudflare-nginx[\r][\n]"
+
+10:02:08,693 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+10:02:08,693 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+10:02:08,693 DEBUG [header] - &lt;&lt; "CF-RAY: 33fe4ac740ea3c53-CDG[\r][\n]"
+
+10:02:08,693 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+10:02:08,693 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+10:02:08,693 DEBUG [header] - &lt;&lt; "[\r][\n]"
+
+10:02:08,693 DEBUG [HttpMethodBase] - enter HttpMethodBase.processResponseHeaders(HttpState, HttpConnection)
+
+10:02:08,697 DEBUG [HttpMethodBase] - enter HttpMethodBase.processCookieHeaders(Header[], HttpState, HttpConnection)
+
+10:02:08,697 DEBUG [CookieSpec] - enter CookieSpecBase.parse(String, port, path, boolean, String)
+
+10:02:08,697 DEBUG [CookieSpec] - enter CookieSpecBase.parse(String, port, path, boolean, Header)
+
+10:02:08,713 DEBUG [Cookie] - enter Cookie(String, String, String, String, Date, boolean)
+
+10:02:08,721 DEBUG [CookieSpec] - Unrecognized cookie attribute: name=HttpOnly, value=null
+
+10:02:08,721 DEBUG [CookieSpec] - enter RFC2109Spec.validate(String, int, String, boolean, Cookie)
+
+10:02:08,721 DEBUG [CookieSpec] - enter CookieSpecBase.validate(String, port, path, boolean, Cookie)
+
+10:02:08,721 DEBUG [HttpState] - enter HttpState.addCookie(Cookie)
+
+10:02:08,721 DEBUG [CookieSpec] - enter RFC2109Spec.formatCookie(Cookie)
+
+10:02:08,721 DEBUG [HttpMethodBase] - Cookie accepted: "$Version=0; __cfduid=d497637132b3775498d3e706eb2252e651489568528; $Path=/; $Domain=.typicode.com"
+
+10:02:08,721 DEBUG [HttpMethodBase] - enter HttpMethodBase.readResponseBody(HttpState, HttpConnection)
+
+10:02:08,725 DEBUG [HttpMethodBase] - enter HttpMethodBase.readResponseBody(HttpConnection)
+
+10:02:08,725 DEBUG [HttpConnection] - enter HttpConnection.getResponseInputStream()
+
+10:02:08,725 DEBUG [HttpMethodBase] - enter HttpMethodBase.canResponseHaveBody(int)
+
+10:02:08,725 DEBUG [HeaderElement] - enter HeaderElement.parseElements(String)
+
+10:02:08,725 DEBUG [HeaderElement] - enter HeaderElement.parseElements(char[])
+
+10:02:08,725 DEBUG [HttpConnection] - enter HttpConnection.isResponseAvailable(int)
+
+10:02:08,729 WARN  [HttpMethodBase] - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+
+10:02:08,729 DEBUG [HttpMethodBase] - Buffering response body
+
+10:02:08,729 DEBUG [content] - &lt;&lt; "1"
+
+10:02:08,733 DEBUG [content] - &lt;&lt; "6"
+
+10:02:08,733 DEBUG [content] - &lt;&lt; "0"
+
+10:02:08,733 DEBUG [content] - &lt;&lt; "d"
+
+10:02:08,733 DEBUG [content] - &lt;&lt; "[\r]"
+
+10:02:08,733 DEBUG [content] - &lt;&lt; "[\n]"
+
+10:02:08,733 DEBUG [content] - &lt;&lt; "[[\n]"
+
+10:02:08,733 DEBUG [content] - &lt;&lt; "  {[\n]"
+
+10:02:08,733 DEBUG [content] - &lt;&lt; "    "id": 1,[\n]"
+
+10:02:08,733 DEBUG [content] - &lt;&lt; "    "name": "Leanne Graham",[\n]"
+
+10:02:08,733 DEBUG [content] - &lt;&lt; "    "username": "Bret",[\n]"
+
+10:02:08,733 DEBUG [content] - &lt;&lt; "    "email": "Sincere@april.biz",[\n]"
+
+10:02:08,733 DEBUG [content] - &lt;&lt; "    "address": {[\n]"
+
+10:02:08,733 DEBUG [content] - &lt;&lt; "      "street": "Kulas Light",[\n]"
+
+10:02:08,733 DEBUG [content] - &lt;&lt; "      "suite": "Apt. 556",[\n]"
+
+10:02:08,733 DEBUG [content] - &lt;&lt; "      "city": "Gwenborough",[\n]"
+
+10:02:08,737 DEBUG [content] - &lt;&lt; "      "zipcode": "92998-3874",[\n]"
+
+10:02:08,737 DEBUG [content] - &lt;&lt; "      "geo": {[\n]"
+
+10:02:08,737 DEBUG [content] - &lt;&lt; "        "lat": "-37.3159",[\n]"
+
+10:02:08,737 DEBUG [content] - &lt;&lt; "        "lng": "81.1496"[\n]"
+
+10:02:08,737 DEBUG [content] - &lt;&lt; "      }[\n]"
+
+10:02:08,737 DEBUG [content] - &lt;&lt; "    },[\n]"
+
+10:02:08,737 DEBUG [content] - &lt;&lt; "    "phone": "1-770-736-8031 x56442",[\n]"
+
+10:02:08,737 DEBUG [content] - &lt;&lt; "    "website": "hildegard.org",[\n]"
+
+10:02:08,741 DEBUG [content] - &lt;&lt; "    "company": {[\n]"
+
+10:02:08,741 DEBUG [content] - &lt;&lt; "      "name": "Romaguera-Crona",[\n]"
+
+10:02:08,741 DEBUG [content] - &lt;&lt; "      "catchPhrase": "Multi-layered client-server neural-net",[\n]"
+
+10:02:08,741 DEBUG [content] - &lt;&lt; "      "bs": "harness real-time e-markets"[\n]"
+
+10:02:08,741 DEBUG [content] - &lt;&lt; "    }[\n]"
+
+10:02:08,741 DEBUG [content] - &lt;&lt; "  },[\n]"
+
+10:02:08,741 DEBUG [content] - &lt;&lt; "  {[\n]"
+
+10:02:08,741 DEBUG [content] - &lt;&lt; "    "id": 2,[\n]"
+
+10:02:08,741 DEBUG [content] - &lt;&lt; "    "name": "Ervin Howell",[\n]"
+
+10:02:08,741 DEBUG [content] - &lt;&lt; "    "username": "Antonette",[\n]"
+
+10:02:08,741 DEBUG [content] - &lt;&lt; "    "email": "Shanna@melissa.tv",[\n]"
+
+10:02:08,745 DEBUG [content] - &lt;&lt; "    "address": {[\n]"
+
+10:02:08,745 DEBUG [content] - &lt;&lt; "      "street": "Victor Plains",[\n]"
+
+10:02:08,745 DEBUG [content] - &lt;&lt; "      "suite": "Suite 879",[\n]"
+
+10:02:08,745 DEBUG [content] - &lt;&lt; "      "city": "Wisokyburgh",[\n]"
+
+10:02:08,745 DEBUG [content] - &lt;&lt; "      "zipcode": "90566-7771",[\n]"
+
+10:02:08,745 DEBUG [content] - &lt;&lt; "      "geo": {[\n]"
+
+10:02:08,745 DEBUG [content] - &lt;&lt; "        "lat": "-43.9509",[\n]"
+
+10:02:08,745 DEBUG [content] - &lt;&lt; "        "lng": "-34.4618"[\n]"
+
+10:02:08,745 DEBUG [content] - &lt;&lt; "      }[\n]"
+
+10:02:08,745 DEBUG [content] - &lt;&lt; "    },[\n]"
+
+10:02:08,745 DEBUG [content] - &lt;&lt; "    "phone": "010-692-6593 x09125",[\n]"
+
+10:02:08,745 DEBUG [content] - &lt;&lt; "    "website": "anastasia.net",[\n]"
+
+10:02:08,745 DEBUG [content] - &lt;&lt; "    "company": {[\n]"
+
+10:02:08,745 DEBUG [content] - &lt;&lt; "      "name": "Deckow-Crist",[\n]"
+
+10:02:08,749 DEBUG [content] - &lt;&lt; "      "catchPhrase": "Proactive didactic contingency",[\n]"
+
+10:02:08,749 DEBUG [content] - &lt;&lt; "      "bs": "synergize scalable supply-chains"[\n]"
+
+10:02:08,749 DEBUG [content] - &lt;&lt; "    }[\n]"
+
+10:02:08,749 DEBUG [content] - &lt;&lt; "  },[\n]"
+
+10:02:08,749 DEBUG [content] - &lt;&lt; "  {[\n]"
+
+10:02:08,749 DEBUG [content] - &lt;&lt; "    "id": 3,[\n]"
+
+10:02:08,749 DEBUG [content] - &lt;&lt; "    "name": "Clementine Bauch",[\n]"
+
+10:02:08,749 DEBUG [content] - &lt;&lt; "    "username": "Samantha",[\n]"
+
+10:02:08,749 DEBUG [content] - &lt;&lt; "    "email": "Nathan@yesenia.net",[\n]"
+
+10:02:08,749 DEBUG [content] - &lt;&lt; "    "address": {[\n]"
+
+10:02:08,749 DEBUG [content] - &lt;&lt; "      "street": "Douglas Extension",[\n]"
+
+10:02:08,749 DEBUG [content] - &lt;&lt; "      "suite": "Suite 847",[\n]"
+
+10:02:08,749 DEBUG [content] - &lt;&lt; "      "city": "McKenziehaven",[\n]"
+
+10:02:08,749 DEBUG [content] - &lt;&lt; "      "zipcode": "59590-4157",[\n]"
+
+10:02:08,753 DEBUG [content] - &lt;&lt; "      "geo": {[\n]"
+
+10:02:08,753 DEBUG [content] - &lt;&lt; "        "lat": "-68.6102",[\n]"
+
+10:02:08,753 DEBUG [content] - &lt;&lt; "        "lng": "-47.0653"[\n]"
+
+10:02:08,753 DEBUG [content] - &lt;&lt; "      }[\n]"
+
+10:02:08,753 DEBUG [content] - &lt;&lt; "    },[\n]"
+
+10:02:08,753 DEBUG [content] - &lt;&lt; "    "phone": "1-463-123-4447",[\n]"
+
+10:02:08,753 DEBUG [content] - &lt;&lt; "    "website": "ramiro.info",[\n]"
+
+10:02:08,753 DEBUG [content] - &lt;&lt; "    "company": {[\n]"
+
+10:02:08,753 DEBUG [content] - &lt;&lt; "      "name": "Romaguera-Jacobson",[\n]"
+
+10:02:08,753 DEBUG [content] - &lt;&lt; "      "catchPhrase": "Face to face bifurcated interface",[\n]"
+
+10:02:08,753 DEBUG [content] - &lt;&lt; "      "bs": "e-enable strategic applications"[\n]"
+
+10:02:08,753 DEBUG [content] - &lt;&lt; "    }[\n]"
+
+10:02:08,753 DEBUG [content] - &lt;&lt; "  },[\n]"
+
+10:02:08,753 DEBUG [content] - &lt;&lt; "  {[\n]"
+
+10:02:08,753 DEBUG [content] - &lt;&lt; "    "id": 4,[\n]"
+
+10:02:08,753 DEBUG [content] - &lt;&lt; "    "name": "Patricia Lebsack",[\n]"
+
+10:02:08,753 DEBUG [content] - &lt;&lt; "    "username": "Karianne",[\n]"
+
+10:02:08,757 DEBUG [content] - &lt;&lt; "    "email": "Julianne.OConner@kory.org",[\n]"
+
+10:02:08,757 DEBUG [content] - &lt;&lt; "    "address": {[\n]"
+
+10:02:08,757 DEBUG [content] - &lt;&lt; "      "street": "Hoeger Mall",[\n]"
+
+10:02:08,757 DEBUG [content] - &lt;&lt; "      "suite": "Apt. 692",[\n]"
+
+10:02:08,761 DEBUG [content] - &lt;&lt; "      "city": "South Elvis",[\n]"
+
+10:02:08,761 DEBUG [content] - &lt;&lt; "      "zipcode": "53919-4257",[\n]"
+
+10:02:08,761 DEBUG [content] - &lt;&lt; "      "geo": {[\n]"
+
+10:02:08,761 DEBUG [content] - &lt;&lt; "        "lat": "29.4572",[\n]"
+
+10:02:08,761 DEBUG [content] - &lt;&lt; "        "lng": "-164.2990"[\n]"
+
+10:02:08,761 DEBUG [content] - &lt;&lt; "      }[\n]"
+
+10:02:08,761 DEBUG [content] - &lt;&lt; "    },[\n]"
+
+10:02:08,761 DEBUG [content] - &lt;&lt; "    "phone": "493-170-9623 x156",[\n]"
+
+10:02:08,761 DEBUG [content] - &lt;&lt; "    "website": "kale.biz",[\n]"
+
+10:02:08,765 DEBUG [content] - &lt;&lt; "    "company": {[\n]"
+
+10:02:08,765 DEBUG [content] - &lt;&lt; "      "name": "Robel-Corkery",[\n]"
+
+10:02:08,769 DEBUG [content] - &lt;&lt; "      "catchPhrase": "Multi-tiered zero tolerance productivity",[\n]"
+
+10:02:08,773 DEBUG [content] - &lt;&lt; "      "bs": "transition cutting-edge web services"[\n]"
+
+10:02:08,773 DEBUG [content] - &lt;&lt; "    }[\n]"
+
+10:02:08,777 DEBUG [content] - &lt;&lt; "  },[\n]"
+
+10:02:08,777 DEBUG [content] - &lt;&lt; "  {[\n]"
+
+10:02:08,777 DEBUG [content] - &lt;&lt; "    "id": 5,[\n]"
+
+10:02:08,777 DEBUG [content] - &lt;&lt; "    "name": "Chelsey Dietrich",[\n]"
+
+10:02:08,777 DEBUG [content] - &lt;&lt; "    "username": "Kamren",[\n]"
+
+10:02:08,781 DEBUG [content] - &lt;&lt; "    "email": "Lucio_Hettinger@annie.ca",[\n]"
+
+10:02:08,781 DEBUG [content] - &lt;&lt; "    "address": {[\n]"
+
+10:02:08,781 DEBUG [content] - &lt;&lt; "      "street": "Skiles Walks",[\n]"
+
+10:02:08,781 DEBUG [content] - &lt;&lt; "      "suite": "Suite 351",[\n]"
+
+10:02:08,781 DEBUG [content] - &lt;&lt; "      "city": "Roscoeview",[\n]"
+
+10:02:08,781 DEBUG [content] - &lt;&lt; "      "zipcode": "33263",[\n]"
+
+10:02:08,781 DEBUG [content] - &lt;&lt; "      "geo": {[\n]"
+
+10:02:08,785 DEBUG [content] - &lt;&lt; "        "lat": "-31.8129",[\n]"
+
+10:02:08,785 DEBUG [content] - &lt;&lt; "        "lng": "62.5342"[\n]"
+
+10:02:08,785 DEBUG [content] - &lt;&lt; "      }[\n]"
+
+10:02:08,785 DEBUG [content] - &lt;&lt; "    },[\n]"
+
+10:02:08,785 DEBUG [content] - &lt;&lt; "    "phone": "(254)954-1289",[\n]"
+
+10:02:08,785 DEBUG [content] - &lt;&lt; "    "website": "demarco.info",[\n]"
+
+10:02:08,785 DEBUG [content] - &lt;&lt; "    "company": {[\n]"
+
+10:02:08,785 DEBUG [content] - &lt;&lt; "      "name": "Keebler LLC",[\n]"
+
+10:02:08,785 DEBUG [content] - &lt;&lt; "      "catchPhrase": "User-centric fault-tolerant solution",[\n]"
+
+10:02:08,785 DEBUG [content] - &lt;&lt; "      "bs": "revolutionize end-to-end systems"[\n]"
+
+10:02:08,785 DEBUG [content] - &lt;&lt; "    }[\n]"
+
+10:02:08,785 DEBUG [content] - &lt;&lt; "  },[\n]"
+
+10:02:08,785 DEBUG [content] - &lt;&lt; "  {[\n]"
+
+10:02:08,785 DEBUG [content] - &lt;&lt; "    "id": 6,[\n]"
+
+10:02:08,785 DEBUG [content] - &lt;&lt; "    "name": "Mrs. Dennis Schulist",[\n]"
+
+10:02:08,789 DEBUG [content] - &lt;&lt; "    "username": "Leopoldo_Corkery",[\n]"
+
+10:02:08,789 DEBUG [content] - &lt;&lt; "    "email": "Karley_Dach@jasper.info",[\n]"
+
+10:02:08,789 DEBUG [content] - &lt;&lt; "    "address": {[\n]"
+
+10:02:08,789 DEBUG [content] - &lt;&lt; "      "street": "Norberto Crossing",[\n]"
+
+10:02:08,789 DEBUG [content] - &lt;&lt; "      "suite": "Apt. 950",[\n]"
+
+10:02:08,789 DEBUG [content] - &lt;&lt; "      "city": "South Christy",[\n]"
+
+10:02:08,789 DEBUG [content] - &lt;&lt; "      "zipcode": "23505-1337",[\n]"
+
+10:02:08,789 DEBUG [content] - &lt;&lt; "      "geo": {[\n]"
+
+10:02:08,801 DEBUG [content] - &lt;&lt; "        "lat": "-71.4197",[\n]"
+
+10:02:08,801 DEBUG [content] - &lt;&lt; "        "lng": "71.7478"[\n]"
+
+10:02:08,801 DEBUG [content] - &lt;&lt; "      }[\n]"
+
+10:02:08,801 DEBUG [content] - &lt;&lt; "    },[\n]"
+
+10:02:08,801 DEBUG [content] - &lt;&lt; "    "phone": "1-477-935-8478 x6430",[\n]"
+
+10:02:08,801 DEBUG [content] - &lt;&lt; "    "website": "ola.org",[\n]"
+
+10:02:08,801 DEBUG [content] - &lt;&lt; "    "company": {[\n]"
+
+10:02:08,805 DEBUG [content] - &lt;&lt; "      "name": "Considine-Lockman",[\n]"
+
+10:02:08,805 DEBUG [content] - &lt;&lt; "      "catchPhrase": "Synchronised bottom-line interface",[\n]"
+
+10:02:08,805 DEBUG [content] - &lt;&lt; "      "bs": "e-enable innovative applications"[\n]"
+
+10:02:08,805 DEBUG [content] - &lt;&lt; "    }[\n]"
+
+10:02:08,805 DEBUG [content] - &lt;&lt; "  },[\n]"
+
+10:02:08,805 DEBUG [content] - &lt;&lt; "  {[\n]"
+
+10:02:08,805 DEBUG [content] - &lt;&lt; "    "id": 7,[\n]"
+
+10:02:08,805 DEBUG [content] - &lt;&lt; "    "name": "Kurtis Weissnat",[\n]"
+
+10:02:08,805 DEBUG [content] - &lt;&lt; "    "username": "Elwyn.Skiles",[\n]"
+
+10:02:08,805 DEBUG [content] - &lt;&lt; "    "email": "Telly.Hoeger@billy.biz",[\n]"
+
+10:02:08,805 DEBUG [content] - &lt;&lt; "    "address": {[\n]"
+
+10:02:08,805 DEBUG [content] - &lt;&lt; "      "street": "Rex Trail",[\n]"
+
+10:02:08,805 DEBUG [content] - &lt;&lt; "      "suite": "Suite 280",[\n]"
+
+10:02:08,805 DEBUG [content] - &lt;&lt; "      "city": "Howemouth",[\n]"
+
+10:02:08,805 DEBUG [content] - &lt;&lt; "      "zipcode": "58804-1099",[\n]"
+
+10:02:08,805 DEBUG [content] - &lt;&lt; "      "geo": {[\n]"
+
+10:02:08,809 DEBUG [content] - &lt;&lt; "        "lat": "24.8918",[\n]"
+
+10:02:08,809 DEBUG [content] - &lt;&lt; "        "lng": "21.8984"[\n]"
+
+10:02:08,809 DEBUG [content] - &lt;&lt; "      }[\n]"
+
+10:02:08,809 DEBUG [content] - &lt;&lt; "    },[\n]"
+
+10:02:08,809 DEBUG [content] - &lt;&lt; "    "phone": "210.067.6132",[\n]"
+
+10:02:08,809 DEBUG [content] - &lt;&lt; "    "website": "elvis.io",[\n]"
+
+10:02:08,809 DEBUG [content] - &lt;&lt; "    "company": {[\n]"
+
+10:02:08,809 DEBUG [content] - &lt;&lt; "      "name": "Johns Group",[\n]"
+
+10:02:08,809 DEBUG [content] - &lt;&lt; "      "catchPhrase": "Configurable multimedia task-force",[\n]"
+
+10:02:08,809 DEBUG [content] - &lt;&lt; "      "bs": "generate enterprise e-tailers"[\n]"
+
+10:02:08,809 DEBUG [content] - &lt;&lt; "    }[\n]"
+
+10:02:08,809 DEBUG [content] - &lt;&lt; "  },[\n]"
+
+10:02:08,809 DEBUG [content] - &lt;&lt; "  {[\n]"
+
+10:02:08,809 DEBUG [content] - &lt;&lt; "    "id": 8,[\n]"
+
+10:02:08,809 DEBUG [content] - &lt;&lt; "    "name": "Nicholas Runolfsdottir V",[\n]"
+
+10:02:08,809 DEBUG [content] - &lt;&lt; "    "username": "Maxime_Nienow",[\n]"
+
+10:02:08,809 DEBUG [content] - &lt;&lt; "    "email": "Sherwood@rosamond.me",[\n]"
+
+10:02:08,809 DEBUG [content] - &lt;&lt; "    "address": {[\n]"
+
+10:02:08,809 DEBUG [content] - &lt;&lt; "      "
+
+10:02:08,809 DEBUG [content] - &lt;&lt; ""street": "Ellsworth Summit",[\n]"
+
+10:02:08,813 DEBUG [content] - &lt;&lt; "      "suite": "Suite 729",[\n]"
+
+10:02:08,813 DEBUG [content] - &lt;&lt; "      "city": "Aliyaview",[\n]"
+
+10:02:08,813 DEBUG [content] - &lt;&lt; "      "zipcode": "45169",[\n]"
+
+10:02:08,813 DEBUG [content] - &lt;&lt; "      "geo": {[\n]"
+
+10:02:08,813 DEBUG [content] - &lt;&lt; "        "lat": "-14.3990",[\n]"
+
+10:02:08,813 DEBUG [content] - &lt;&lt; "        "lng": "-120.7677"[\n]"
+
+10:02:08,813 DEBUG [content] - &lt;&lt; "      }[\n]"
+
+10:02:08,813 DEBUG [content] - &lt;&lt; "    },[\n]"
+
+10:02:08,813 DEBUG [content] - &lt;&lt; "    "phone": "586.493.6943 x140",[\n]"
+
+10:02:08,813 DEBUG [content] - &lt;&lt; "    "website": "jacynthe.com",[\n]"
+
+10:02:08,813 DEBUG [content] - &lt;&lt; "    "company": {[\n]"
+
+10:02:08,813 DEBUG [content] - &lt;&lt; "      "name": "Abernathy Group",[\n]"
+
+10:02:08,813 DEBUG [content] - &lt;&lt; "      "catchPhrase": "Implemented secondary concept",[\n]"
+
+10:02:08,813 DEBUG [content] - &lt;&lt; "      "bs": "e-enable extensible e-tailers"[\n]"
+
+10:02:08,813 DEBUG [content] - &lt;&lt; "    }[\n]"
+
+10:02:08,813 DEBUG [content] - &lt;&lt; "  },[\n]"
+
+10:02:08,813 DEBUG [content] - &lt;&lt; "  {[\n]"
+
+10:02:08,817 DEBUG [content] - &lt;&lt; "    "id": 9,[\n]"
+
+10:02:08,817 DEBUG [content] - &lt;&lt; "    "name": "Glenna Reichert",[\n]"
+
+10:02:08,821 DEBUG [content] - &lt;&lt; "    "username": "Delphine",[\n]"
+
+10:02:08,825 DEBUG [content] - &lt;&lt; "    "email": "Chaim_McDermott@dana.io",[\n]"
+
+10:02:08,825 DEBUG [content] - &lt;&lt; "    "address": {[\n]"
+
+10:02:08,825 DEBUG [content] - &lt;&lt; "      "street": "Dayna Park",[\n]"
+
+10:02:08,825 DEBUG [content] - &lt;&lt; "      "suite": "Suite 449",[\n]"
+
+10:02:08,829 DEBUG [content] - &lt;&lt; "      "city": "Bartholomebury",[\n]"
+
+10:02:08,829 DEBUG [content] - &lt;&lt; "      "zipcode": "76495-3109",[\n]"
+
+10:02:08,833 DEBUG [content] - &lt;&lt; "      "geo": {[\n]"
+
+10:02:08,833 DEBUG [content] - &lt;&lt; "        "lat": "24.6463",[\n]"
+
+10:02:08,833 DEBUG [content] - &lt;&lt; "        "lng": "-168.8889"[\n]"
+
+10:02:08,833 DEBUG [content] - &lt;&lt; "      }[\n]"
+
+10:02:08,833 DEBUG [content] - &lt;&lt; "    },[\n]"
+
+10:02:08,833 DEBUG [content] - &lt;&lt; "    "phone": "(775)976-6794 x41206",[\n]"
+
+10:02:08,833 DEBUG [content] - &lt;&lt; "    "website": "conrad.com",[\n]"
+
+10:02:08,833 DEBUG [content] - &lt;&lt; "    "company": {[\n]"
+
+10:02:08,833 DEBUG [content] - &lt;&lt; "      "name": "Yost and Sons",[\n]"
+
+10:02:08,833 DEBUG [content] - &lt;&lt; "      "catchPhrase": "Switchable contextually-based project",[\n]"
+
+10:02:08,833 DEBUG [content] - &lt;&lt; "      "bs": "aggregate real-time technologies"[\n]"
+
+10:02:08,833 DEBUG [content] - &lt;&lt; "    }[\n]"
+
+10:02:08,837 DEBUG [content] - &lt;&lt; "  },[\n]"
+
+10:02:08,837 DEBUG [content] - &lt;&lt; "  {[\n]"
+
+10:02:08,837 DEBUG [content] - &lt;&lt; "    "id": 10,[\n]"
+
+10:02:08,837 DEBUG [content] - &lt;&lt; "    "name": "Clementina DuBuque",[\n]"
+
+10:02:08,837 DEBUG [content] - &lt;&lt; "    "username": "Moriah.Stanton",[\n]"
+
+10:02:08,837 DEBUG [content] - &lt;&lt; "    "email": "Rey.Padberg@karina.biz",[\n]"
+
+10:02:08,837 DEBUG [content] - &lt;&lt; "    "address": {[\n]"
+
+10:02:08,837 DEBUG [content] - &lt;&lt; "      "street": "Kattie Turnpike",[\n]"
+
+10:02:08,837 DEBUG [content] - &lt;&lt; "      "suite": "Suite 198",[\n]"
+
+10:02:08,837 DEBUG [content] - &lt;&lt; "      "city": "Lebsackbury",[\n]"
+
+10:02:08,837 DEBUG [content] - &lt;&lt; "      "zipcode": "31428-2261",[\n]"
+
+10:02:08,837 DEBUG [content] - &lt;&lt; "      "geo": {[\n]"
+
+10:02:08,841 DEBUG [content] - &lt;&lt; "        "lat": "-38.2386",[\n]"
+
+10:02:08,841 DEBUG [content] - &lt;&lt; "        "lng": "57.2232"[\n]"
+
+10:02:08,841 DEBUG [content] - &lt;&lt; "      }[\n]"
+
+10:02:08,845 DEBUG [content] - &lt;&lt; "    },[\n]"
+
+10:02:08,845 DEBUG [content] - &lt;&lt; "    "phone": "024-648-3804",[\n]"
+
+10:02:08,845 DEBUG [content] - &lt;&lt; "    "website": "ambrose.net",[\n]"
+
+10:02:08,845 DEBUG [content] - &lt;&lt; "    "company": {[\n]"
+
+10:02:08,845 DEBUG [content] - &lt;&lt; "      "name": "Hoeger LLC",[\n]"
+
+10:02:08,845 DEBUG [content] - &lt;&lt; "      "catchPhrase": "Centralized empowering task-force",[\n]"
+
+10:02:08,845 DEBUG [content] - &lt;&lt; "      "bs": "target end-to-end models"[\n]"
+
+10:02:08,845 DEBUG [content] - &lt;&lt; "    }[\n]"
+
+10:02:08,845 DEBUG [content] - &lt;&lt; "  }[\n]"
+
+10:02:08,845 DEBUG [content] - &lt;&lt; "]"
+
+10:02:08,845 DEBUG [content] - &lt;&lt; "[\r]"
+
+10:02:08,845 DEBUG [content] - &lt;&lt; "[\n]"
+
+10:02:08,845 DEBUG [content] - &lt;&lt; "0"
+
+10:02:08,845 DEBUG [content] - &lt;&lt; "[\r]"
+
+10:02:08,845 DEBUG [content] - &lt;&lt; "[\n]"
+
+10:02:08,849 DEBUG [HttpParser] - enter HeaderParser.parseHeaders(InputStream, String)
+
+10:02:08,849 DEBUG [HttpParser] - enter HttpParser.readLine(InputStream, String)
+
+10:02:08,849 DEBUG [HttpParser] - enter HttpParser.readRawLine()
+
+10:02:08,849 DEBUG [content] - &lt;&lt; "[\r]"
+
+10:02:08,849 DEBUG [content] - &lt;&lt; "[\n]"
+
+10:02:08,849 DEBUG [header] - &lt;&lt; "[\r][\n]"
+
+10:02:08,849 DEBUG [HttpMethodBase] - Should NOT close connection in response to directive: keep-alive
+
+10:02:08,849 DEBUG [HttpConnection] - enter HttpConnection.isResponseAvailable()
+
+10:02:08,849 DEBUG [HttpConnection] - enter HttpConnection.releaseConnection()
+
+10:02:08,849 DEBUG [HttpConnection] - Releasing connection back to connection manager.
+
+10:02:08,853 DEBUG [RestClientImpl] - response: [200] OK
+Date:Wed, 15 Mar 2017 09:02:08 GMT
+Content-Type:application/json; charset=utf-8
+Transfer-Encoding:chunked
+Connection:keep-alive
+Set-Cookie:__cfduid=d497637132b3775498d3e706eb2252e651489568528; expires=Thu, 15-Mar-18 09:02:08 GMT; path=/; domain=.typicode.com; HttpOnly
+X-Powered-By:Express
+Vary:Origin, Accept-Encoding
+Access-Control-Allow-Credentials:true
+Cache-Control:public, max-age=14400
+Pragma:no-cache
+Expires:Wed, 15 Mar 2017 13:02:08 GMT
+X-Content-Type-Options:nosniff
+Etag:W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+Via:1.1 vegur
+CF-Cache-Status:HIT
+Server:cloudflare-nginx
+CF-RAY:33fe4ac740ea3c53-CDG
+
+[
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "address": {
+      "street": "Victor Plains",
+      "suite": "Suite 879",
+      "city": "Wisokyburgh",
+      "zipcode": "90566-7771",
+      "geo": {
+        "lat": "-43.9509",
+        "lng": "-34.4618"
+      }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "anastasia.net",
+    "company": {
+      "name": "Deckow-Crist",
+      "catchPhrase": "Proactive didactic contingency",
+      "bs": "synergize scalable supply-chains"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Clementine Bauch",
+    "username": "Samantha",
+    "email": "Nathan@yesenia.net",
+    "address": {
+      "street": "Douglas Extension",
+      "suite": "Suite 847",
+      "city": "McKenziehaven",
+      "zipcode": "59590-4157",
+      "geo": {
+        "lat": "-68.6102",
+        "lng": "-47.0653"
+      }
+    },
+    "phone": "1-463-123-4447",
+    "website": "ramiro.info",
+    "company": {
+      "name": "Romaguera-Jacobson",
+      "catchPhrase": "Face to face bifurcated interface",
+      "bs": "e-enable strategic applications"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Patricia Lebsack",
+    "username": "Karianne",
+    "email": "Julianne.OConner@kory.org",
+    "address": {
+      "street": "Hoeger Mall",
+      "suite": "Apt. 692",
+      "city": "South Elvis",
+      "zipcode": "53919-4257",
+      "geo": {
+        "lat": "29.4572",
+        "lng": "-164.2990"
+      }
+    },
+    "phone": "493-170-9623 x156",
+    "website": "kale.biz",
+    "company": {
+      "name": "Robel-Corkery",
+      "catchPhrase": "Multi-tiered zero tolerance productivity",
+      "bs": "transition cutting-edge web services"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "username": "Kamren",
+    "email": "Lucio_Hettinger@annie.ca",
+    "address": {
+      "street": "Skiles Walks",
+      "suite": "Suite 351",
+      "city": "Roscoeview",
+      "zipcode": "33263",
+      "geo": {
+        "lat": "-31.8129",
+        "lng": "62.5342"
+      }
+    },
+    "phone": "(254)954-1289",
+    "website": "demarco.info",
+    "company": {
+      "name": "Keebler LLC",
+      "catchPhrase": "User-centric fault-tolerant solution",
+      "bs": "revolutionize end-to-end systems"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Mrs. Dennis Schulist",
+    "username": "Leopoldo_Corkery",
+    "email": "Karley_Dach@jasper.info",
+    "address": {
+      "street": "Norberto Crossing",
+      "suite": "Apt. 950",
+      "city": "South Christy",
+      "zipcode": "23505-1337",
+      "geo": {
+        "lat": "-71.4197",
+        "lng": "71.7478"
+      }
+    },
+    "phone": "1-477-935-8478 x6430",
+    "website": "ola.org",
+    "company": {
+      "name": "Considine-Lockman",
+      "catchPhrase": "Synchronised bottom-line interface",
+      "bs": "e-enable innovative applications"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Kurtis Weissnat",
+    "username": "Elwyn.Skiles",
+    "email": "Telly.Hoeger@billy.biz",
+    "address": {
+      "street": "Rex Trail",
+      "suite": "Suite 280",
+      "city": "Howemouth",
+      "zipcode": "58804-1099",
+      "geo": {
+        "lat": "24.8918",
+        "lng": "21.8984"
+      }
+    },
+    "phone": "210.067.6132",
+    "website": "elvis.io",
+    "company": {
+      "name": "Johns Group",
+      "catchPhrase": "Configurable multimedia task-force",
+      "bs": "generate enterprise e-tailers"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Nicholas Runolfsdottir V",
+    "username": "Maxime_Nienow",
+    "email": "Sherwood@rosamond.me",
+    "address": {
+      "street": "Ellsworth Summit",
+      "suite": "Suite 729",
+      "city": "Aliyaview",
+      "zipcode": "45169",
+      "geo": {
+        "lat": "-14.3990",
+        "lng": "-120.7677"
+      }
+    },
+    "phone": "586.493.6943 x140",
+    "website": "jacynthe.com",
+    "company": {
+      "name": "Abernathy Group",
+      "catchPhrase": "Implemented secondary concept",
+      "bs": "e-enable extensible e-tailers"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Glenna Reichert",
+    "username": "Delphine",
+    "email": "Chaim_McDermott@dana.io",
+    "address": {
+      "street": "Dayna Park",
+      "suite": "Suite 449",
+      "city": "Bartholomebury",
+      "zipcode": "76495-3109",
+      "geo": {
+        "lat": "24.6463",
+        "lng": "-168.8889"
+      }
+    },
+    "phone": "(775)976-6794 x41206",
+    "website": "conrad.com",
+    "company": {
+      "name": "Yost and Sons",
+      "catchPhrase": "Switchable contextually-based project",
+      "bs": "aggregate real-time technologies"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Clementina DuBuque",
+    "username": "Moriah.Stanton",
+    "email": "Rey.Padberg@karina.biz",
+    "address": {
+      "street": "Kattie Turnpike",
+      "suite": "Suite 198",
+      "city": "Lebsackbury",
+      "zipcode": "31428-2261",
+      "geo": {
+        "lat": "-38.2386",
+        "lng": "57.2232"
+      }
+    },
+    "phone": "024-648-3804",
+    "website": "ambrose.net",
+    "company": {
+      "name": "Hoeger LLC",
+      "catchPhrase": "Centralized empowering task-force",
+      "bs": "target end-to-end models"
+    }
+  }
+]
+
+</stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>1</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>5480</totalRunTimeInMillis>
+</testResults>
+

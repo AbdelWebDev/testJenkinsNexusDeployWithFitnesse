@@ -1,0 +1,9 @@
+---
+Test
+---
+| Import |
+| smartrics.rest.fitnesse.fixture |
+
+| Table: Rest Fixture |http://jsonplaceholder.typicode.com/ |
+|GET    | /users/1 | 200 | Content-Type: application/json | jsonbody.username === 'Bret' |
+| let   |  name | js | response.jsonbody.username |  |

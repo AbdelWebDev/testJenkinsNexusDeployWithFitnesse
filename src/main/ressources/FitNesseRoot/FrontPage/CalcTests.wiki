@@ -1,0 +1,20 @@
+---
+Test
+---
+Définit que le test doit être exécuté avec SLIM
+!define TEST_SYSTEM {slim}
+ 
+À adapter en fonction de chacun. Peut être un chemin relatif par rapport à la racine de Fitnesse.
+!path C:\TOS_DI-20161216_1026-V6.3.1\workspace\TestCalc
+
+|Add two number                          |
+|first int|second int|result of addition?|
+|0        |1         |1                  |
+|2        |0         |2                  |
+|2        |3         |5                  |
+
+|Subtract an integer to another                   |
+|int to be subtracted|minus|result of subtraction?|
+|0                   |1    |-1                    |
+|4                   |2    |2                     |
+|3                   |1    |2                     |

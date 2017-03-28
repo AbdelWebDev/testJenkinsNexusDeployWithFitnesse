@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20161106</FitNesseVersion>
+  <rootPath>MyTestSamples.MySimple4</rootPath>
+    <result>
+    <counts>
+      <right>3</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <date>2017-03-27T09:18:55+02:00</date>
+    <runTimeInMillis>321</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;Import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;smartrics.rest.fitnesse.fixture&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;Table: Rest Fixture&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="4"&gt;&lt;a href="http://127.0.0.1:8040/services"&gt;http://127.0.0.1:8040/services&lt;/a&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;GET&lt;/td&gt;
+		&lt;td&gt;&lt;div&gt;&lt;a href='http://127.0.0.1:8040/services/services/employees/1'&gt;/services/employees/1&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;&lt;div&gt;200&lt;/div&gt;&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;div&gt;Date&amp;nbsp;:&amp;nbsp;Mon,&amp;nbsp;27&amp;nbsp;Mar&amp;nbsp;2017&amp;nbsp;07:18:55&amp;nbsp;GMT&lt;br/&gt;Content-Type&amp;nbsp;:&amp;nbsp;application/xml&lt;br/&gt;Transfer-Encoding&amp;nbsp;:&amp;nbsp;chunked&lt;br/&gt;Server&amp;nbsp;:&amp;nbsp;Jetty(9.2.19.v20160908)&lt;/div&gt;&lt;/td&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;&lt;div&gt;/employee[@id=1]&lt;br/&gt;&lt;i&gt;&lt;span class='fit_label'&gt;expected&lt;/span&gt;&lt;/i&gt;&lt;hr/&gt;&lt;br/&gt;&amp;lt;?xml&amp;nbsp;version="1.0"&amp;nbsp;encoding="UTF-8"?&amp;gt;&lt;br/&gt;&amp;lt;employee&amp;nbsp;id="1"&amp;gt;&amp;lt;firstname&amp;gt;Lyndon&amp;lt;/firstname&amp;gt;&amp;lt;lastname&amp;gt;Monroe&amp;lt;/lastname&amp;gt;&amp;lt;/employee&amp;gt;&lt;br/&gt;&lt;i&gt;&lt;span class='fit_label'&gt;actual&lt;/span&gt;&lt;/i&gt;&lt;/div&gt;&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>MySimple4</relativePageName>
+            <instructions>
+            <instructionResult>
+        <instruction>{id='import_0_0', instruction='import', path='smartrics.rest.fitnesse.fixture'}</instruction>
+        <slimResult>pass(smartrics.rest.fitnesse.fixture)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>import_0_0</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ImportExpectation</type>
+                                        <evaluationMessage>smartrics.rest.fitnesse.fixture</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='tableTable_1_0', instruction='make', instanceName='tableTable_1', className='RestFixture', args=[&lt;a href="http://127.0.0.1:8040/services"&gt;http://127.0.0.1:8040/services&lt;/a&gt;]}</instruction>
+        <slimResult>pass(Table: Rest Fixture)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>tableTable_1_0</instructionId>
+                    <col>0</col>
+                              <row>0</row>
+                    <type>ConstructionExpectation</type>
+                                        <evaluationMessage>Table: Rest Fixture</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='tableTable_1_1', instruction='call', instanceName='tableTable_1', methodName='doTable', args=[[[GET, /services/employees/1, 200, , /employee[@id=1]]]]}</instruction>
+        <slimResult>pass()</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>tableTable_1_1</instructionId>
+                              <type>TableTableExpectation</type>
+                                      </expectation>
+              </instructionResult>
+          </instructions>
+      </result>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>"C:\Program Files\Java\jdk1.8.0_121\bin\java" -cp C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\fitnesse-20161106.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\accessors-smart-1.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\ant-1.9.6.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\ant-launcher-1.9.6.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\asm-5.0.3.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\cglib-nodep-3.2.4.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\commons-codec-1.9.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\commons-collections-3.2.2.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\commons-exec-1.3.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\commons-httpclient-3.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\commons-io-2.4.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\commons-lang-2.6.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\commons-lang3-3.5.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\commons-logging-1.0.4.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\commons-net-3.5.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\diff-1.1.11.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\diffutils-1.3.0.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\fitnesse-20161106.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\freemarker-2.3.23.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\gson-2.3.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\guava-19.0.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\hsac-fitnesse-fixtures-2.11.2.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\htmllexer-2.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\htmlparser-2.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\httpclient-4.5.2.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\httpcore-4.4.4.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\httpmime-4.5.2.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\jcl-over-slf4j-1.7.22.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\jettison-1.3.2.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\jna-4.1.0.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\jna-platform-4.1.0.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\json-20151123.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\json-path-2.2.0.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\json-smart-2.2.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\junit-4.8.2.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\log4j-1.2.17.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\netty-3.5.7.Final.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\phantomjsdriver-1.3.0.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\rhino-1.7R3.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\selenium-api-2.53.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\selenium-chrome-driver-2.53.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\selenium-edge-driver-2.53.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\selenium-firefox-driver-2.53.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\selenium-ie-driver-2.53.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\selenium-java-2.53.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\selenium-leg-rc-2.53.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\selenium-remote-driver-2.53.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\selenium-safari-driver-2.53.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\selenium-support-2.53.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\slf4j-api-1.6.6.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\slf4j-jdk14-1.7.22.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\slf4j-log4j12-1.7.20.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\smartrics-RestClient-2.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\smartrics-RestFixture-4.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\stax-api-1.0.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\velocity-1.7.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\xmlpull-1.1.3.1.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\xpp3_min-1.1.4c.jar;C:\Users\abamri\Desktop\maven-project-fitnesse\target\dependencies\xstream-1.4.2.jar fitnesse.slim.SlimService 1</command>
+    <exitCode>0</exitCode>
+    <stdOut></stdOut>
+    <stdErr>SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/Users/abamri/Desktop/maven-project-fitnesse/target/dependencies/slf4j-jdk14-1.7.22.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/C:/Users/abamri/Desktop/maven-project-fitnesse/target/dependencies/slf4j-log4j12-1.7.20.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.JDK14LoggerFactory]
+mars 27, 2017 9:18:55 AM org.apache.commons.httpclient.HttpMethodBase getResponseBody
+AVERTISSEMENT: Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+
+</stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>1</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>1159</totalRunTimeInMillis>
+</testResults>
+
