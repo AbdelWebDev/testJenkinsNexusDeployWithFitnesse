@@ -1,15 +1,20 @@
 package smartrics.restfixture.sample;
 
-import java.io.File;
+/**
+ * Created by ABAMRI on 28/03/2017.
+ */
+
+import fitnesse.junit.JUnitHelper;
 import org.junit.Before;
 import org.junit.Test;
-import fitnesse.junit.JUnitHelper;
 
-public class RunnerTest {
+import java.io.File;
+
+public class ClassRunner4 {
 
     private JUnitHelper helper;
 
-   
+
     @Before
     public void prepare() {
         helper = new JUnitHelper("src/main/ressources", new File("target", "fitnesse-junit").getAbsolutePath());
@@ -18,9 +23,7 @@ public class RunnerTest {
 
     @Test
     public void restFixtureTests() throws Exception {
-        helper.assertSuitePasses("MyTestSamples.MySimple1");
+        helper.assertSuitePasses("MyTestSamples.MySimple4");
     }
-    
-}
 
-//Chemin = C:\Users\abamri\Desktop\maven-project-fitnesse\src\test\java\smartrics\restfixture\sample
+}
