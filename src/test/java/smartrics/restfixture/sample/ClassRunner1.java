@@ -18,7 +18,7 @@ public class ClassRunner1 {
 
     @Test
     public void restFixtureTests() throws Exception {
-        helper.assertSuitePasses("MyTestSamples.MySimple1");
+        helper.assertSuitePasses("MyTestSamples.MySimple");
     }
 
 }
